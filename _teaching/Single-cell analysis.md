@@ -1,8 +1,8 @@
 ---
-title: "Protein-prediction"
+title: "Single-cell analysis"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/Protein-prediction
+permalink: /teaching/Single-cell analysis
 venue: "University 1, Department"
 date: 2014-01-01
 location: "City, Country"
