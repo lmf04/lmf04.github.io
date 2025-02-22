@@ -49,7 +49,7 @@ Publications
   {% endfor %}</ul>
   
   
-Repository
+Repositories
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
