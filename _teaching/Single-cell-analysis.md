@@ -1,8 +1,8 @@
 ---
-title: "Single-cell analysis"
+title: "Single cell analysis"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/Single-cell analysis
+permalink: /teaching/Single-cell-analysis
 venue: "University 1, Department"
 date: 2024-01-01
 location: "山东, 青岛"
