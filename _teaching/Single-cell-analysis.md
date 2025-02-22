@@ -1,9 +1,9 @@
 ---
 title: "Single cell analysis"
 collection: teaching
-type: "Undergraduate course"
+type: "代码库"
 permalink: /teaching/Single-cell-analysis
-venue: "University 1, Department"
+venue: "山东大学 1, 生命科学院"
 date: 2024-01-01
 location: "山东, 青岛"
 ---
