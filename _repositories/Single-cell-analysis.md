@@ -1,8 +1,8 @@
 ---
 title: "Single cell analysis"
-collection: teaching
+collection: repositories
 type: "代码库"
-permalink: /teaching/Single-cell-analysis
+permalink: /repositories/Single-cell-analysis
 venue: "山东大学 1, 生命科学院"
 date: 2024-01-01
 location: "山东, 青岛"

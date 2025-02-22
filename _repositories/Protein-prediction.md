@@ -1,8 +1,8 @@
 ---
 title: "Protein-prediction"
-collection: teaching
+collection: repositories
 type: "Workshop"
-permalink: /teaching/Protein-prediction
+permalink: /repositories/Protein-prediction
 venue: "University 1, Department"
 date: 2015-01-01
 location: "City, Country"

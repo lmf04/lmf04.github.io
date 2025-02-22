@@ -1,8 +1,8 @@
 ---
 title: "Analytical-tool"
-collection: teaching
+collection: repositories
 type: "Workshop"
-permalink: /teaching/Analytical-tool
+permalink: /repositories/Analytical-tool
 venue: "University 1, Department"
 date: 2023-01-01
 location: "City, Country"
