@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Mengfei / Site Title"
+title                    : "Mengfei / Academic Website"
 title_separator          : "-"
 name                     : &name "Li Mengfei"
-description              : &description "personal description"
+description              : &description "An undergraduate student from Shandong University, China"
 url                      : https://lmf04.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lmf04/lmf04.github.io"
@@ -23,13 +23,13 @@ repository               : "lmf04/lmf04.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Mengfei Li"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Short biography"
   location         : "Earth"
   employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  uri              : "https://lmf04.github.io/"# URL
+  email            : "2935580139@qq.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
