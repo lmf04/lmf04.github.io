@@ -41,6 +41,7 @@ Skills
 * 掌握的编程语言主要有C、C++、python、R
 * 掌握的编程工具主要有 vscode、Rstudio
 * 掌握的分析工具主要有 BioLadder、Galaxy、DNA Subway、FastQC、Proteome Discoverer等
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
