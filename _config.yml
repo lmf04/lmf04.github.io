@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Mengfei / Home Page"
+title                    : "Mengfei (黎梦菲)"
 title_separator          : "-"
 name                     : &name "Li Mengfei"
 description              : &description "An undergraduate student from Shandong University, China"
