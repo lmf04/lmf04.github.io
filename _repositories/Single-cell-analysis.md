@@ -1,9 +1,9 @@
 ---
 title: "Single cell analysis"
 collection: repositories
-type: "代码库"
+type: "单细胞分析的代码库"
 permalink: /repositories/Single-cell-analysis
-venue: "山东大学 1, 生命科学院"
+# venue: "2024-06-30"
 date: 2024-01-01
 location: "山东, 青岛"
 ---
