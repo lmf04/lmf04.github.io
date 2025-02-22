@@ -37,7 +37,7 @@ Research
   
 Skills
 ======
-* 分析工具以及预测模型开发
+* 分析工具以及预测模型开发、训练等
 * 掌握的编程语言主要有C、C++、python、R
 * 掌握的编程工具主要有 vscode、Rstudio
 * 掌握的分析工具主要有 BioLadder、Galaxy、DNA Subway、FastQC、Proteome Discoverer等
@@ -48,19 +48,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
   
-Teaching
+Repository
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
 
