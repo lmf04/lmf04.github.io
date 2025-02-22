@@ -8,41 +8,38 @@ redirect_from:
 ---
 
 我是山东大学一名本科生，今年大三，我的研究方向为单细胞分析，蛋白质结构预测，我加入XX导师的实验室，负责实验室的数据分析工作，我用的开发语言主要是python和R，
-目前我已完成单细胞分析论文发表和蛋白质预测工具开发，我的研究重点是机器学习来预测复杂的蛋白质多态序列的影响。
-
-
+开发工具主要有vscode、rstudio、PyCharm等，用到的数据库主要有GEO（基因表达数据库）、KEGG（代谢通路数据库）、Reactome，软件工具主要有数据分析工具：R（GSEA、MetaboAnalyst）、Python（pandas、numpy、matplotlib），网络分析工具主要有Cytoscape，代谢通路建模工具主要有COBRA Toolbox（MATLAB或Python）。
+目前我已完成单细胞分析论文发表和蛋白质预测工具开发，我的研究重点是机器学习来预测复杂的蛋白质动态结构和蛋白质的复合物，蛋白质和蛋白质之前相互作用的建模。
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 山东大学, 2021
 
-Work experience
+Research
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2022.1-2023.4: 课题研究
+  * 山东大学
+  * 黄河口微生物群落对环境的影响是多方面的，包括维持生态系统稳定性、促进污染物降解、调控生物地球化学循环等。微生物群落的多样性和功能稳定性对生态系统健康至关重要，而环境变化（如氮沉降、水沙输入等）则会影响微生物群落的结构和功能，进而影响生态系统的服务功能。因此，保护黄河口微生物群落的多样性及其功能对于维护区域生态环境具有重要意义
+  * (职责)Duties included:实验数据分析,湿实验，论文写作。
+  * (指导)Supervisor: 张教授
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2023.1-2025.3: 科研助手（Research Assistant）
+  * 山东大XX实验室
+  * 内容：预测了蛋白质结构，细胞计数工具开发等
+  * (职责)Duties included: 负责科研数据分析。
+  * (指导)Supervisor: 张教授
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2024.1-2025.3: 课题研究
+  * 山东大XX实验室
+  * 内容：单细胞数据分析，癌症标志发现
+  * (职责)Duties included: 数据清洗、工具开发、论文撰写。
+  * (指导)Supervisor: 张教授
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 分析工具以及预测模型开发
+* 掌握的编程语言主要有C、C++、python、R
+* 掌握的工具主要有 vscode、Rstudio
 
 Publications
 ======
