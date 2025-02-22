@@ -8,19 +8,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Research"
-    url: /talks/    
-
-  - title: "Repositories"
-    url: /teaching/    
-    
-      
-  - title: "Blog Posts"
-    url: /year-archive/
-
   - title: "Researches"
     url: /researches/  
 
   - title: "Repositories"
     url: /repositories/   
+
+  - title: "Blog Posts"
+    url: /year-archive/
+
+
     
