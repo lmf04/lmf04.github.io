@@ -1,10 +1,10 @@
 ---
-title: "Teaching experience 1"
+title: "Analytical-tool"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+type: "Workshop"
+permalink: /teaching/Analytical-tool
 venue: "University 1, Department"
-date: 2014-01-01
+date: 2015-01-01
 location: "City, Country"
 ---
 
