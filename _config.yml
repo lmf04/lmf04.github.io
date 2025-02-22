@@ -228,7 +228,9 @@ collections:
   researches:
     output: true
     permalink: /:collection/:path/
-
+  repositories:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -254,6 +256,15 @@ defaults:
   - scope:
       path: ""
       type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+   # _repositories
+  - scope:
+      path: ""
+      type: repositories
     values:
       layout: single
       author_profile: true
