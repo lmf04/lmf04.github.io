@@ -13,6 +13,9 @@ redirect_from:
 
   <div style="color:red">
     sdfsdf
+    <div>
+    Core Courses: Linear Algebra|Calculus|Biostatistics|Bioinformatics|Molecular Biology|Biochemistry|Physical Chemistry
+    </div>
   </div>
 
 
