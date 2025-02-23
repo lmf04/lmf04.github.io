@@ -42,9 +42,9 @@ Research Projects
 ======
 ## 1. Independent Project · Single-Cell Analysis and Cancer Biomarker Discovery
 
-Shandong University XX Laboratory · 2024.01-2025.03
+      Shandong University XX Laboratory · 2024.01-2025.03
 
-Technical Stack: 
+      Technical Stack: 
  * Python (pandas/seaborn) 
  * R (DESeq2/ClusterProfiler) 
  * GEO/KEGG
@@ -53,6 +53,7 @@ Contributions:
  * Developed a single-cell transcriptomics analysis pipeline and identified five potential cancer biomarkers.
  * Created an automated data cleaning tool (open-sourced on GitHub with XX Stars).
 Authored an SCI paper (currently under revision, expected publication in 2025.Q2).
+
 ## 2. Protein Structure Prediction and Tool Development
 
 Shandong University XX Laboratory · 2023.11-2025.03
@@ -65,6 +66,7 @@ Technical Stack
 Contributions:
   * Improved the AlphaFold2 model to predict the dynamic structures of over 20 marine microbial proteins.
   * Developed a cell counting tool based on image recognition (integrated with OpenCV, error rate < 3%).
+  
 ## 3. Marine Microbial Community Research
 
 Collaborative Project within the Research Group · 2023.01-2024.04
