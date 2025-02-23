@@ -71,17 +71,22 @@ Authored an SCI paper (currently under revision, expected publication in 2025.Q2
 
 ### 2. Protein Structure Prediction and Tool Development
 <div>Shandong University XX Laboratory · 2023.11-2025.03</div>
-<div>Technical Stack:</div>
+<ul>
+  <li>Technical Stack:
+    <ul>
+      <li>Python (Biopython/Rosetta) </li>
+      <li>COBRA Toolbox </li>
+      <li>Cytoscape</li>
+    </ul>
+  </li>
+  <li>Contributions:
+    <ul>
+      <li>Improved the AlphaFold2 model to predict the dynamic structures of over 20 marine microbial proteins.</li>
+      <li>Developed a cell counting tool based on image recognition (integrated with OpenCV, error rate < 3%).</li>
+    </ul>
+  </li>
+</ul>
 
- * Python (Biopython/Rosetta) 
- * COBRA Toolbox 
- * Cytoscape
-
-<div>Contributions:</div>
-
-  * Improved the AlphaFold2 model to predict the dynamic structures of over 20 marine microbial proteins.
-  * Developed a cell counting tool based on image recognition (integrated with OpenCV, error rate < 3%).
-  
 ### 3. Marine Microbial Community Research
 <div>Collaborative Project within the Research Group · 2023.01-2024.04</div>
 <div>Technical Stack: </div>
