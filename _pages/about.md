@@ -71,7 +71,7 @@ Authored an SCI paper (currently under revision, expected publication in 2025.Q2
 
 ### 2. Protein Structure Prediction and Tool Development
 <div>Shandong University XX Laboratory · 2023.11-2025.03</div>
-<div>Technical Stack</div>
+<div>Technical Stack:</div>
 
  * Python (Biopython/Rosetta) 
  * COBRA Toolbox 
