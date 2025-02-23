@@ -13,11 +13,15 @@ redirect_from:
 
 Education
 ======
-* 山东大学,生物科学专业‌, 2022.09-2026.06
-* ‌核心课程‌：线性代数｜微积分｜生物统计学｜生物信息学｜分子生物学｜生物化学｜物理化学
-* 研究方向：
-  * ‌机器学习驱动‌：蛋白质动态结构预测、复合物相互作用建模
-  * 单细胞分析‌：癌症标志物挖掘、数据工具开发
+* Shandong University, Major in Biological Sciences, Sep. 2022 - Jun. 2026
+* Core Courses: Linear Algebra | Calculus | Biostatistics | Bioinformatics | Molecular Biology | Biochemistry | Physical Chemistry
+* Research Interests：
+  * Machine Learning-Driven‌：
+    * Protein dynamic structure prediction
+    * Modeling of protein complex interactions
+  * Single-Cell Analysis‌：
+    * Cancer biomarker discovery
+    * Development of data analysis tools
 
 Research Highlights
 ======
@@ -58,10 +62,10 @@ Contributions:
 
 Skills
 ======
-* 分析工具以及预测模型开发、训练等
-* 掌握的编程语言主要有C、C++、python、R
-* 掌握的编程工具主要有 vscode、Rstudio
-* 掌握的分析工具主要有 BioLadder、Galaxy、DNA Subway、FastQC、Proteome Discoverer等
+* Development, training, and implementation of analytical tools and predictive models.
+* Proficient in programming languages including C, C++, Python, and R.
+* Experienced with programming tools such as VS Code and RStudio.
+* Skilled in using analytical platforms like BioLadder, Galaxy, DNA Subway, FastQC, and Proteome Discoverer.
 
 Publications
 ======
