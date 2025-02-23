@@ -14,7 +14,7 @@ redirect_from:
 1. Education
 ======
 * Shandong University, Major in Biological Sciences, Sep. 2022 - Jun. 2026
-* Core Courses: Linear Algebra|Calculus|Biostatistics|Bioinformatics|Molecular Biology|Biochemistry|Physical Chemistry
+* Core Courses: Linear Algebra、Calculus、Biostatistics、Bioinformatics、Molecular Biology、Biochemistry、Physical Chemistry
 * Research Interests：
   * Machine Learning-Driven‌：
     * Protein dynamic structure prediction
