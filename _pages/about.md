@@ -14,7 +14,7 @@ redirect_from:
  <h1>Education</h1> 
   <ul>
     <li>Shandong University, Major in Biological Sciences, Sep. 2022 - Jun. 2026</li>
-    <li>Core Courses: Linear Algebra|Calculus|Biostatistics|Bioinformatics|Molecular Biology|Biochemistry|Physical Chemistry</li>
+    <li>Core Courses: Linear Algebra | Calculus | Biostatistics | Bioinformatics | Molecular Biology | Biochemistry | Physical Chemistry</li>
     <li>Research Interests：
       <ul>
         <li>Machine Learning-Driven‌：
