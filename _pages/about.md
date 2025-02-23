@@ -27,7 +27,7 @@ Research Highlights
 ======
 * Core Achievements
   * Publication: First-authored paper in the field of single-cell analysis (Journal Name, Impact Factor = X).
-* ool Development:
+* Tool Development:
   * Independently developed a protein structure prediction tool (based on Python/R).
   * Developed a high-throughput cell counting tool with automated analysis capabilities.
 * Model Construction:Built a deep learning-based framework for predicting protein dynamic conformation (using TensorFlow/PyTorch).
