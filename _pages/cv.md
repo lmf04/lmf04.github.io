@@ -57,14 +57,3 @@ redirect_from:
 Python (Expert)	BioLadder/Galaxy	pandas/numpy	ggplot2
 R (Advanced)	FastQC/Proteome Discoverer	Seurat/Scanpy	Cytoscape
 C/C++ (Basic)	COBRA Toolbox	GSEA/MetaboAnalyst	PyMol
-📊 可视化建议
-‌技术分布雷达图‌：量化编程语言与工具掌握度（Python/R为核心）
-‌成果时间轴‌：标注论文、工具、模型的关键节点（2023-2025）
-‌项目流程图‌：展示单细胞分析/蛋白质建模的技术链路
-✨ 优化说明
-‌逻辑强化‌：以“机器学习+蛋白质研究”为主线贯穿全文
-‌数据量化‌：添加工具性能指标（效率提升/预测精度）
-‌细节深化‌：标注技术栈的具体应用场景（如OpenCV用于细胞计数）
-‌视觉留白‌：使用符号分隔模块（如---、·、｜），避免信息过载
-
-如需进一步调整或补充其他模块（如奖项/实习），可随时告知！
