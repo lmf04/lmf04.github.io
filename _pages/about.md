@@ -11,10 +11,10 @@ redirect_from:
 开发工具主要有vscode、rstudio、PyCharm等，用到的数据库主要有GEO（基因表达数据库）、KEGG（代谢通路数据库）、Reactome，软件工具主要有数据分析工具：R（GSEA、MetaboAnalyst）、Python（pandas、numpy、matplotlib），网络分析工具主要有Cytoscape，代谢通路建模工具主要有COBRA Toolbox（MATLAB或Python）。
 目前我已完成单细胞分析论文发表和蛋白质预测工具开发，我的研究重点是机器学习预测复杂的蛋白质动态结构和蛋白质的复合物以及蛋白质和蛋白质之间相互作用的建模。 -->
 
-1. Education
+Education
 ======
 * Shandong University, Major in Biological Sciences, Sep. 2022 - Jun. 2026
-* Core Courses: Linear Algebra、Calculus、Biostatistics、Bioinformatics、Molecular Biology、Biochemistry、Physical Chemistry
+* Core Courses: Linear Algebra|Calculus|Biostatistics|Bioinformatics|Molecular Biology|Biochemistry | Physical Chemistry
 * Research Interests：
   * Machine Learning-Driven‌：
     * Protein dynamic structure prediction
@@ -23,7 +23,7 @@ redirect_from:
     * Cancer biomarker discovery
     * Development of data analysis tools
 
-2. Research Highlights
+Research Highlights
 ======
 * Core Achievements
   * Publication: First-authored paper in the field of single-cell analysis (Journal Name, Impact Factor = X).
@@ -38,9 +38,9 @@ redirect_from:
   * Protein Modeling:
     * Achieved 92% accuracy in predicting protein complex interactions using an improved AlphaFold2 model.
 
-3. Research Projects
+Research Projects
 ======
-## 3.1. Independent Project · Single-Cell Analysis and Cancer Biomarker Discovery
+## 1. Independent Project · Single-Cell Analysis and Cancer Biomarker Discovery
 Shandong University XX Laboratory · 2024.01-2025.03
 
 Technical Stack: 
@@ -54,7 +54,7 @@ Contributions:
 
 Authored an SCI paper (currently under revision, expected publication in 2025.Q2).
 
-## 3.2. Protein Structure Prediction and Tool Development
+## 2. Protein Structure Prediction and Tool Development
 Shandong University XX Laboratory · 2023.11-2025.03
 
 Technical Stack
@@ -66,7 +66,7 @@ Contributions:
   * Improved the AlphaFold2 model to predict the dynamic structures of over 20 marine microbial proteins.
   * Developed a cell counting tool based on image recognition (integrated with OpenCV, error rate < 3%).
   
-## 3.3. Marine Microbial Community Research
+## 3. Marine Microbial Community Research
 Collaborative Project within the Research Group · 2023.01-2024.04
 
 Technical Stack: 
@@ -78,21 +78,21 @@ Contributions:
   * Discovered three key microbial taxa associated with ocean acidification (p < 0.01).
   * Validated findings through both wet-lab experiments and bioinformatics analysis, with results published in Marine Biology (IF = 2.8).
 
-4. Skills
+Skills
 ======
 * Development, training, and implementation of analytical tools and predictive models.
 * Proficient in programming languages including C, C++, Python, and R.
 * Experienced with programming tools such as VS Code and RStudio.
 * Skilled in using analytical platforms like BioLadder, Galaxy, DNA Subway, FastQC, and Proteome Discoverer.
 
-5. Publications
+Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
   
-6. Repositories
+Repositories
 ======
   <ul>{% for post in site.repositories reversed %}
     {% include archive-single-cv.html %}
