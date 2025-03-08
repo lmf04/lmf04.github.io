@@ -15,8 +15,9 @@ redirect_from:
 </div>
 
 <div>
-<a href="/about.zh-Cn">中文</a>
+<a href="/zh-cn/about">中文</a>
 </div>
+
  <h1>教育</h1> 
   <ul>
     <li>山东大学, 生物本科, 2022.09 - 2026.06</li>
