@@ -10,7 +10,13 @@ redirect_from:
 <!-- 我是山东大学一名大三本科生，专业为生物科学，主要课程有线性代数、微积分、生物统计、生物信息学、生物化学、遗传学、分子生物学、结构生物学等，我的研究方向为单细胞分析、蛋白质结构预测，我加入XX导师的实验室，负责实验室的数据分析工作，我使用的开发语言主要有Python和R，
 开发工具主要有VsCode、RStudio、PyCharm等，用到的数据库主要有GEO（基因表达数据库）、KEGG（代谢通路数据库）、Reactome，软件工具主要有数据分析工具：R（GSEA、MetaboAnalyst）、Python（pandas、numpy、matplotlib），网络分析工具主要有Cytoscape，代谢通路建模工具主要有COBRA Toolbox（MATLAB或Python）。
 目前我已完成单细胞分析论文发表和蛋白质预测工具开发，我的研究重点是机器学习预测复杂的蛋白质动态结构和蛋白质的复合物以及蛋白质和蛋白质之间相互作用的建模。 -->
+<div>
+  <a href="/">English</a>
+</div>
 
+<div>
+<a href="/about.zh-Cn">中文</a>
+</div>
  <h1>教育</h1> 
   <ul>
     <li>山东大学, 生物本科, 2022.09 - 2026.06</li>
