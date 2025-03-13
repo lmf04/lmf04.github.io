@@ -7,8 +7,15 @@
                 <div class="vp-blog-main">
                     <div class="vp-blog-main-box">
                         <div>
-                            <h1>{{ _value.title }}</h1>
-                            <p v-if="_value.frontmatter.date">{{ formatDate(_value.frontmatter.date) }}</p>
+                            <h1>{{ _value.title }}  <span style="font-size: 14px;">{{ _value.frontmatter.date }}</span> </h1>
+                            <div>导师：{{ _value.frontmatter.teacher }}</div>
+                            <div style="margin-top: 10px;">{{ _value.frontmatter.description }}</div>
+                            <div style="margin-top: 10px;">贡献：
+
+                                <div v-for="(item, i) in _value.frontmatter.contribution" :key="i">
+                                    <span style="color: blue;">*</span> {{ item }}
+                                </div>
+                            </div>
                             <Content />
                         </div>
                     </div>
@@ -43,7 +50,7 @@ const formatDate = (date) => {
 </script>
 
 <style scoped>
-:deep(.vp-sidebar){
+:deep(.vp-sidebar) {
     display: none;
 }
 

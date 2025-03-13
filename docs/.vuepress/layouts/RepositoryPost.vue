@@ -7,8 +7,20 @@
                 <div class="vp-blog-main">
                     <div class="vp-blog-main-box">
                         <div>
-                            <h1>{{ _value.title }}</h1>
-                            <p v-if="_value.frontmatter.date">{{ formatDate(_value.frontmatter.date) }}</p>
+                            <h1>{{ _value.title }} <span style="font-size: 14px;">{{ _value.frontmatter.date }}</span> </h1>
+                            <div style="margin-top: 10px;">{{ _value.frontmatter.description }}</div>
+                            <div class="git-box" style="margin-top: 5px;">
+                                <div>
+                                    fork:{{ _value.frontmatter.fork }}
+                                </div>
+                                <div>
+                                    star:{{ _value.frontmatter.star }}
+                                </div>
+                                <div>
+                                    address： <a :href="_value.frontmatter.address"> {{ _value.frontmatter.address }}</a>
+                                </div>
+
+                            </div>
                             <Content />
                         </div>
                     </div>
@@ -43,10 +55,15 @@ const formatDate = (date) => {
 </script>
 
 <style scoped>
-:deep(.vp-sidebar){
+:deep(.vp-sidebar) {
     display: none;
 }
-
+.git-box{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e2e2e3;
+    padding-bottom: 10px;
+}
 h1 {
     margin-bottom: 10px;
 }

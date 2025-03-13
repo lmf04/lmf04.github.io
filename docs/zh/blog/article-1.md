@@ -1,6 +1,6 @@
 ---
 layout: BlogPost
-date: 2025-01-12
+date: 2025.01.12 
 archive: true
 title: Python 中的with关键字使用详解
 description: 在 Python 2.5 中， with 关键字被加入。它将常用的 try ... except ... finally ... 模式很方便的被复用。看一个最经典的例

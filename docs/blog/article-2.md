@@ -1,6 +1,6 @@
 ---
 layout: BlogPost
-date: 2025-02-12
+date: 2025.02.12
 archive: true
 title: 哈佛大学Nature的这套生信分析代码，值得学
 description: 用AI识别细胞并计数

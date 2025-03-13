@@ -8,7 +8,9 @@
                     <div class="vp-blog-main-box">
                         <div>
                             <h1>{{ _value.title }}</h1>
-                            <p v-if="_value.frontmatter.date">{{ formatDate(_value.frontmatter.date) }}</p>
+                            <p v-if="_value.frontmatter.date">{{ _value.frontmatter.date }}</p>
+
+                            <p>{{ _value.frontmatter.description }}</p>
                             <Content />
                         </div>
                     </div>

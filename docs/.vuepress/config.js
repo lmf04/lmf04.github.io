@@ -85,7 +85,7 @@ export default defineUserConfig({
         star: frontmatter.star || "",
         fork: frontmatter.fork || "",
         address: frontmatter.address || "",
-        date: frontmatter.date || null,
+        date: frontmatter.date || "",
         category: frontmatter.category || [],
         tag: frontmatter.tag || [],
         contribution:frontmatter.contribution || [],

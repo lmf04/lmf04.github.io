@@ -11,7 +11,7 @@
                             <ul>
                                 <li v-for="(post, i) in blogPosts" :key="i">
                                     <router-link :to="post.path">{{ post.info.title }}</router-link>
-                                    <span v-if="post.info.date">{{ formatDate(post.info.date) }}</span>
+                                    <span v-if="post.info.date">{{ (post.info.date) }}</span>
 
                                     <div>{{ post.info.description }}</div>
                                 </li>

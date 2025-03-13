@@ -23,7 +23,7 @@
                                             star:{{ post.info.star }}
                                         </div>
                                         <div>
-                                            address： <a :href="post.info.address">github</a>
+                                            address： <a :href="post.info.address">{{ post.info.address }}</a>
                                         </div>
 
                                     </div>
