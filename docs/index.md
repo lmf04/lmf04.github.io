@@ -1,0 +1,27 @@
+---
+home: true
+title: Home
+layout: Empty
+---
+
+关于我
+======
+
+我是山东大学一名大三本科生，专业为生物科学，我的研究方向为单细胞分析、蛋白质相互作用关系预测，我加入陈导师的实验室，负责实验室的数据分析工作，我使用的开发语言主要有python和R，开发工具主要有vscode、rstudio、PyCharm等，用到的数据库主要有GEO（基因表达数据库）、KEGG（代谢通路数据库）、Reactome，软件工具主要有数据分析工具：R（GSEA、MetaboAnalyst）、Python（pandas、numpy、matplotlib），网络分析工具主要有Cytoscape，代谢通路建模工具主要有COBRA Toolbox（MATLAB或Python）。
+
+
+
+
+教育
+======
+* 山东大学,生物科学专业‌, 2022.09-2026.06
+* ‌核心课程‌：线型代数、微积分、生物统计学、生物信息学、有机化学及实验、无机及分析化学及实验、物理及实验、物理化学及实验、分子生物学及实验、生物化学及实验、遗传学及实验、结构生物学、细胞生物学及实验、微生物学及实验、免疫生物学、计算思维(C语言及算法)、人工智能基础、matlab数学建模、实验数据分析和软件
+
+  
+技能
+======
+* 湿实验会蛋白质提取、DNA提取、DNA测序、构建基因表达载体、微生物培养（赤酶酵母G115、大肠杆菌）、SDS-PAGE、蛋白质纯化、常用实验仪器使用。
+* 分析工具和预测模型的开发、训练、测试和部署（Docker）等。
+* 精通编程语言有C、C++、Python和R。
+* 使用的开工具有VS Code、RStudio、PyCharm等。
+* 熟练使用 Pandas、NumPy、Matplotlib、Seaborn、scikit-learn、Pytorch、SeuratV5、ggplot2、jalviewg、AutoDockTools、Cytoscape、Open Babel GUI、TBtools-II、PyMOL、gromacs、mafft、iqtree、monocle3、scanpy、Biopython。

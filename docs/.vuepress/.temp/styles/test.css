@@ -1,0 +1,13 @@
+/* 让导航栏容器居中 */
+.VPNavBar.has-sidebar .content {
+    justify-content: center;
+}
+
+/* 若导航栏有侧边栏，也进行居中调整 */
+.VPNavBar.has-sidebar .content > .links {
+    justify-content: center;
+}
+
+.vp-navbar{
+    width: 400px;
+}
