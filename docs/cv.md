@@ -3,7 +3,9 @@ home: false
 title: CV
 layout: Empty
 ---
-
+<div style="position:absolute;right:10px">
+<Print></Print>
+</div>
 
 教育
 ======

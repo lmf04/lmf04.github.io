@@ -30,7 +30,6 @@
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 
 import { useBlogType } from '@vuepress/plugin-blog/client';
-import { usePageLang } from '@vuepress/client';
 import { computed } from 'vue';
 import { useLang } from './useLang'
 import Footer from '../components/Footer.vue'

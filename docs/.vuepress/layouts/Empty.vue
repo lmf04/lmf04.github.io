@@ -10,7 +10,6 @@ import Footer_CN from '../components/Footer_CN.vue'
 import { computed } from 'vue';
 import { useLang } from './useLang'
 const lang = computed(() => useLang());
-
 </script>
 
 <template>
@@ -21,7 +20,7 @@ const lang = computed(() => useLang());
         <Left v-else> </Left>
         <div class="vp-blog-main">
           <div class="vp-blog-main-box">
-            <Content  />
+            <Content   id="content" />
           </div>
         </div>
       </div>

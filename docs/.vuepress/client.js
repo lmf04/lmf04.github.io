@@ -7,8 +7,12 @@ import ResearchPost from './layouts/ResearchPost.vue'
 
 import RepositoryHome from './layouts/RepositoryHome.vue'
 import RepositoryPost from './layouts/RepositoryPost.vue'
+import Print from './components/Print.vue'
 
 export default defineClientConfig({
+  enhance({ app }) {
+    app.component('Print', Print);
+  },
   layouts: {
     Empty,
     BlogHome,
@@ -16,6 +20,6 @@ export default defineClientConfig({
     ResearchHome,
     ResearchPost,
     RepositoryHome,
-    RepositoryPost
+    RepositoryPost,
   },
 })

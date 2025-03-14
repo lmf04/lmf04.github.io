@@ -9,6 +9,7 @@
         box-shadow:0 1px 3px 1px var(--vp-c-shadow);
         padding: 10px;
         min-height: calc(100vh - 230px);
+        position: relative;
     }
   }
   .vp-sidebar{
@@ -48,3 +49,20 @@
     }
   }
   
+
+  .flex-bet{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-around{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  @media (min-width: 720px) {
+    .nav-bot{
+      display: none;
+    }
+  }

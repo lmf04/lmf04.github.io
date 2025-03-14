@@ -24,3 +24,11 @@ layout: Empty
 * 精通编程语言有C、C++、Python和R。
 * 使用的开工具有VS Code、RStudio、PyCharm等。
 * 熟练使用 Pandas、NumPy、Matplotlib、Seaborn、scikit-learn、Pytorch、SeuratV5、ggplot2、jalviewg、AutoDockTools、Cytoscape、Open Babel GUI、TBtools-II、PyMOL、gromacs、mafft、iqtree、monocle3、scanpy、Biopython。
+
+
+
+<div class="flex-around nav-bot">
+<a href="/zh/cv">我的简历</a>
+<a href="/zh/researchList/">我的科研</a>
+<a href="/zh/repositoryList/">我的代码库</a>
+</div>

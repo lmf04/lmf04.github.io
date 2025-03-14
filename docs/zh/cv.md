@@ -2,8 +2,12 @@
 home: false
 title: 简历
 layout: Empty
+print: true
 ---
 
+<div style="position:absolute;right:10px">
+<Print></Print>
+</div>
 
 教育
 ======
@@ -42,3 +46,8 @@ layout: Empty
 * 精通编程语言有C、C++、Python和R。
 * 使用的开工具有VS Code、RStudio、PyCharm等。
 * 熟练使用 Pandas、NumPy、Matplotlib、Seaborn、scikit-learn、Pytorch、SeuratV5、ggplot2、jalviewg、AutoDockTools、Cytoscape、Open Babel GUI、TBtools-II、PyMOL、gromacs、mafft、iqtree、monocle3、scanpy、Biopython。
+
+
+ 
+
+ 
