@@ -12,9 +12,7 @@
         position: relative;
     }
   }
-  .vp-sidebar{
-    display: none;
-  }
+ 
 
 .route-link-active{
   border-bottom: 3px solid green;
@@ -24,6 +22,9 @@
 @media (min-width: 720px) {
   .vp-blog-main{
     width: 780px;
+  }
+  .vp-sidebar{
+    display: none;
   }
     .vp-navbar{
          padding-left: calc((100vw - 1080px) /2);

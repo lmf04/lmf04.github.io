@@ -198,7 +198,6 @@
   
   
   
-  .vp-blog-info-wrapper .vp-blogger-info {}
   
   .vp-page .vp-blog-info-wrapper {
     position: sticky;
