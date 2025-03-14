@@ -7,10 +7,6 @@ description: 在 Python 2.5 中， with 关键字被加入。它将常用的 try
 ---
 
 在 Python 2.5 中， with 关键字被加入。它将常用的 try ... except ... finally ... 模式很方便的被复用。看一个最经典的例子：
-
-?
-1
-2
 with open('file.txt') as f:
   content = f.read()
 在这段代码中，无论 with 中的代码块在执行的过程中发生任何情况，文件最终都会被关闭。如果代码块在执行的过程中发生了一个异常，那么在这个异常被抛出前，程序会先将被打开的文件关闭。
@@ -18,17 +14,7 @@ with open('file.txt') as f:
 再看另外一个例子。
 
 在发起一个数据库事务请求的时候，经常会用类似这样的代码：
-
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
+ 
 db.begin()
  
 try:
@@ -39,10 +25,7 @@ except:
 finally:
   db.commit()
 如果将发起事务请求的操作变成可以支持 with 关键字的，那么用像这样的代码就可以了：
-
-?
-1
-2
+ 
 with transaction(db):
   # do some actions
 下面，详细的说明一下 with 的执行过程，并用两种常用的方式实现上面的代码。
@@ -51,9 +34,6 @@ with 的一般执行过程
 
 一段基本的 with 表达式，其结构是这样的：
 
-?
-1
-2
 with EXPR as VAR:
   BLOCK
 其中： EXPR 可以是任意表达式； as VAR 是可选的。其一般的执行过程是这样的：
@@ -66,23 +46,6 @@ with EXPR as VAR:
 调用上下文管理器的 __exit()__ 方法。如果 BLOCK 的执行过程中发生了一个异常导致程序退出，那么异常的 type 、 value 和 traceback (即 sys.exc_info()的返回值 )将作为参数传递给 __exit()__ 方法。否则，将传递三个 None 。
 将这个过程用代码表示，是这样的：
 
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
 mgr = (EXPR)
 exit = type(mgr).__exit__ # 这里没有执行
 value = type(mgr).__enter__(mgr)
@@ -110,19 +73,6 @@ finally:
 
 第一种方法是实现一个类，其含有一个实例属性 db 和上下文管理器所需要的方法 __enter()__ 和 __exit()__ 。
 
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
 class transaction(object):
   def __init__(self, db):
     self.db = db
@@ -141,20 +91,6 @@ class transaction(object):
 
 在Python的标准库中，有一个装饰器可以通过生成器获取上下文管理器。使用生成器装饰器的实现过程如下：
 
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
 from contextlib import contextmanager
  
 @contextmanager
@@ -180,40 +116,7 @@ with 中的 BLOCK 被执行。
 BLOCK 执行结束后，调用上下文管理器的 __exit()__ 方法。 __exit()__ 方法会再次调用生成器的 next() 方法。如果发生 StopIteration 异常，则 pass 。
 如果没有发生异常生成器方法将会执行 db.commit() ，否则会执行 db.rollback() 。
 再次看看上述过程的代码大致实现：
-
-?
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
+ 
 def contextmanager(func):
   def helper(*args, **kwargs):
     return GeneratorContextManager(func(*args, **kwargs))
@@ -281,4 +184,4 @@ with open("file.txt", "w") as f:
 
 The Python “with” Statement by Example
 
-PEP 343
+ 

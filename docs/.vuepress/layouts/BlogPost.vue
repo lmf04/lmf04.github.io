@@ -11,7 +11,11 @@
                             <p v-if="_value.frontmatter.date">{{ _value.frontmatter.date }}</p>
 
                             <p>{{ _value.frontmatter.description }}</p>
-                            <Content />
+                            <div v-if="_value.frontmatter.link && _value.frontmatter.link.length>1">
+                             
+                                <AutoIframe :src="_value.frontmatter.link"></AutoIframe>
+                            </div>
+                            <Content v-else />
                         </div>
                     </div>
                 </div>
@@ -31,6 +35,7 @@ import Left from '../components/Left.vue'
 import Left_CN from '../components/Left_CN.vue'
 import Footer_CN from '../components/Footer_CN.vue'
 import { useLang } from './useLang'
+import AutoIframe from '../components/AutoIframe.vue'
 
 const lang = computed(() => useLang());
 
@@ -49,6 +54,11 @@ const formatDate = (date) => {
     display: none;
 }
 
+.iframe-box{
+    border: none;
+    width: 100%;
+    height: calc(100vh - 270px);
+}
 h1 {
     margin-bottom: 10px;
 }

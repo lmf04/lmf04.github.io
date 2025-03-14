@@ -96,6 +96,7 @@ export default defineUserConfig({
         tag: frontmatter.tag || [],
         contribution:frontmatter.contribution || [],
         teacher: frontmatter.teacher || "",
+        link: frontmatter.link || "",
         excerpt:
           // Support manually set excerpt through frontmatter
           typeof frontmatter.excerpt === "string"
