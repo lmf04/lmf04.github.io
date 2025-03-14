@@ -69,7 +69,7 @@
             </svg>
             <span class="vp-social-media-text">代码库</span>
           </a>
-          <a class="vp-social-media-a" href="https://lmf04.github.io/" rel="noopener noreferrer" target="_blank"
+          <a class="vp-social-media-a"  href="https://lmf04.github.io/" rel="noopener noreferrer" target="_blank"
             aria-label="Gitlab" data-balloon-pos="up"><svg xmlns="http://www.w3.org/2000/svg"
               class="vp-social-media-icon gitlab-icon" viewBox="0 0 1024 1024">
               <circle cx="512" cy="512" r="512" fill="#E8F0FF"></circle>
@@ -104,6 +104,10 @@
     </div>
   </aside>
 </template>
+<script setup>
+ 
+</script>
+
 <style lang="scss">
 @use '@vuepress/theme-default/styles/mixins';
 
