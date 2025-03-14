@@ -55,9 +55,7 @@ const formatDate = (date) => {
 </script>
 
 <style scoped>
-:deep(.vp-sidebar) {
-    display: none;
-}
+ 
 .git-box{
     display: flex;
     justify-content: space-around;

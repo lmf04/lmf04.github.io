@@ -50,9 +50,7 @@ const formatDate = (date) => {
 </script>
 
 <style scoped>
-:deep(.vp-sidebar){
-    display: none;
-}
+
 
 .iframe-box{
     border: none;

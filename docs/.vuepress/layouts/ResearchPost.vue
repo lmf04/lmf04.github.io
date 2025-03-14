@@ -50,9 +50,6 @@ const formatDate = (date) => {
 </script>
 
 <style scoped>
-:deep(.vp-sidebar) {
-    display: none;
-}
 
 h1 {
     margin-bottom: 10px;

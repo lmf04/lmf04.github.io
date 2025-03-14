@@ -1,6 +1,5 @@
 <script setup>
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
-import { RouteLink, useRoutes } from 'vuepress/client'
 import { Content } from '@vuepress/client'
 import Footer from '../components/Footer.vue'
 import Left from '../components/Left.vue'
@@ -20,13 +19,19 @@ const lang = computed(() => useLang());
         <Left v-else> </Left>
         <div class="vp-blog-main">
           <div class="vp-blog-main-box">
-            <Content   id="content" />
+            <Content id="content" />
           </div>
         </div>
       </div>
       <Footer_CN v-if="lang == 'zh-CN'" />
       <Footer v-else />
     </template>
+    <!-- <template #sidebar>
+      <ul>
+        <li><a href="#">自定义侧边栏项 1</a></li>
+        <li><a href="#">自定义侧边栏项 2</a></li>
+      </ul>
+    </template> -->
   </ParentLayout>
 </template>
 
