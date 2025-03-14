@@ -24,9 +24,9 @@ export default defineUserConfig({
     },
   },
   // 引入自定义 CSS 样式文件
-  head: [
-    ['link', { rel: 'stylesheet', href: '/styles/index.scss' }]
-  ],
+  // head: [
+  //   ['link', { rel: 'stylesheet', href: '/styles/index.scss' }]
+  // ],
   // 默认主题配置
   theme: defaultTheme({
     logo: "https://vuejs.press/images/hero.png", //logo图标
@@ -77,6 +77,7 @@ export default defineUserConfig({
       },
     },
   }),
+  
   plugins: [
     baiduAnalyticsPlugin({
       // 配置项
