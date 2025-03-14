@@ -15,8 +15,16 @@
   .vp-sidebar{
     display: none;
   }
+
+.route-link-active{
+  border-bottom: 3px solid green;
+}
+
 // 桌面端导航居中
 @media (min-width: 720px) {
+  .vp-blog-main{
+    width: 780px;
+  }
     .vp-navbar{
          padding-left: calc((100vw - 1080px) /2);
         .vp-navbar-items-wrapper{

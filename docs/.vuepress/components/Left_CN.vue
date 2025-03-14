@@ -111,7 +111,6 @@
   padding: 30px 10px !important;
   height: calc(100vh - 270px);
   min-height: 300px;
-
 }
 
 .vp-blogger {

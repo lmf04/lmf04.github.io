@@ -2,6 +2,7 @@ import { defineUserConfig } from "@vuepress/cli";
 import { defaultTheme } from "@vuepress/theme-default";
 import { viteBundler } from "@vuepress/bundler-vite";
 import { blogPlugin } from "@vuepress/plugin-blog";
+import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics'
 
 export default defineUserConfig({
   base: "/",
@@ -77,6 +78,10 @@ export default defineUserConfig({
     },
   }),
   plugins: [
+    baiduAnalyticsPlugin({
+      // 配置项
+      id:'5be6c4b07c3038eab60665448843238a'
+    }),
     blogPlugin({
       getInfo: ({ frontmatter, title, data }) => ({
         title,

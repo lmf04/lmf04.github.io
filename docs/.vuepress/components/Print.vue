@@ -1,10 +1,8 @@
 <script setup name="print">
 
-import { ref } from 'vue';
 import print from '../public/print'
 import { useLang } from '../layouts/useLang'
 import { computed } from 'vue';
- 
 
 const printF = () => {
 

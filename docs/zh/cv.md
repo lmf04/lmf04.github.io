@@ -2,7 +2,6 @@
 home: false
 title: 简历
 layout: Empty
-print: true
 ---
 
 <div style="position:absolute;right:10px">
