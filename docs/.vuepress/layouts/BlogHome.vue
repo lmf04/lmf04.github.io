@@ -62,7 +62,7 @@ ul {
 
 li {
     margin-bottom: 10px;
-    border-bottom: 1px solid #e2e2e3;
+    border-bottom: 1px solid var(--vp-c-border);
     padding: 0 0 10px 0;
 }
 

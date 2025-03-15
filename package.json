@@ -20,6 +20,5 @@
     "vuepress": "^2.0.0-rc.7"
   },
   "dependencies": {
-    "lucide-react": "^0.479.0"
   }
 }
