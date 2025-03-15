@@ -2,11 +2,13 @@
 layout: ResearchPost
 archive: true
 date:  2025.02至今
-title: 蛋白质相互作用的影响
-description: 预测蛋白质相互作用（Protein-Protein Interaction, PPI）的影响是生物信息学和系统生物学的重要研究方向，其核心目标是通过计算方法推断蛋白质间相互作用的存在性、强度及其对生物功能的影响。我们将蛋白质互作网络视为图结构，通过消息传递机制学习节点（蛋白质）和边（互作）的嵌入，使用GCN（图卷积网络）、GAT（图注意力网络）预测药物靶点相互作用。
+title: 基于图神经网络的蛋白质相互作用预测及药物靶点研究（独立主导）
+description: 蛋白质相互作用（PPI）预测对理解生物功能和开发新药意义重大。本研究将蛋白质互作网络抽象为图结构，利用图卷积网络（GCN）和图注意力网络（GAT）等技术预测蛋白质相互作用及药物靶点。
 teacher: 大东大学张教授
+progress: 构建多模态蛋白质互作网络，模型 AUC - ROC 达 0.89。
+findings:
 contribution: 
-  - 用pytorch设计模型算法，开发模型，训练数据，测试质量
+  - 设计 PyTorch 模型架构，实现端到端训练与评估流程；整合 STRING 数据库和 PDB 结构数据，优化特征工程。
 ---
 
 # Archive Article1

@@ -97,6 +97,11 @@ export default defineUserConfig({
         contribution:frontmatter.contribution || [],
         teacher: frontmatter.teacher || "",
         link: frontmatter.link || "",
+        progress: frontmatter.progress || "",
+        findings: frontmatter.findings || [],
+        projectDescription: frontmatter.projectDescription || [],
+        researchFocus: frontmatter.researchFocus || [],
+        technicalHighlights: frontmatter.technicalHighlights || [],
         excerpt:
           // Support manually set excerpt through frontmatter
           typeof frontmatter.excerpt === "string"

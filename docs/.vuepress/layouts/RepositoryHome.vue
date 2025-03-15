@@ -8,28 +8,63 @@
                     <div class="vp-blog-main-box">
                         <div>
                             <h1>{{ blogTitle }}</h1>
-                            <ul>
+                            <template v-if="lang == 'zh-CN'">
+                                <ul>
                                 <li v-for="(post, i) in blogPosts" :key="i">
-                                    <router-link :to="post.path">{{ post.info.title }}</router-link>
-                                    <span v-if="post.info.date">{{ (post.info.date) }}</span>
-
-                                    <div style="margin-top: 5px;">{{ post.info.description }}</div>
-
-                                    <div class="git-box" style="margin-top: 5px;">
-                                        <div>
-                                            fork:{{ post.info.fork }}
-                                        </div>
-                                        <div>
-                                            star:{{ post.info.star }}
-                                        </div>
-                                        <div>
-                                            address： <a :href="post.info.address">{{ post.info.address }}</a>
-                                        </div>
-
+                                    <router-link :to="post.path"><b>{{ i + 1 }}、{{ post.info.title }}</b></router-link>
+                                    <div style="margin-top: 5px;"><b>仓库地址</b>：<a :href="post.info.address">{{ post.info.address }}</a></div>
+                                    <div style="margin-top: 5px;"><b>Fork/Star</b>：{{ post.info.fork }}/{{ post.info.star }}</div>
+                                    <div style="margin-top: 5px;">
+                                        <b>研究方向</b>：
+                                            <div v-for="(item, i) in post.info.researchFocus" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                    </div>
+                                    <div style="margin-top: 5px;">
+                                        <b>项目描述</b>：
+                                            <div v-for="(item, i) in post.info.projectDescription" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
                                     </div>
 
+                                    <div style="margin-top: 5px;">
+                                        <b>技术亮点</b>：
+                                            <div v-for="(item, i) in post.info.technicalHighlights" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                    </div>
                                 </li>
                             </ul>
+                            </template>
+                            <template v-else>
+                                <ul>
+                                <li v-for="(post, i) in blogPosts" :key="i">
+                                    <router-link :to="post.path"><b>{{ i + 1 }}、{{ post.info.title }}</b></router-link>
+                                    <div style="margin-top: 5px;"><b>Repository</b>：<a :href="post.info.address">{{ post.info.address }}</a></div>
+                                    <div style="margin-top: 5px;"><b>Fork/Star</b>：{{ post.info.fork }}/{{ post.info.star }}</div>
+                                    <div style="margin-top: 5px;">
+                                        <b>Research Focus</b>：
+                                            <div v-for="(item, i) in post.info.researchFocus" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                    </div>
+                                    <div style="margin-top: 5px;">
+                                        <b>Project Description</b>：
+                                            <div v-for="(item, i) in post.info.projectDescription" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                    </div>
+
+                                    <div style="margin-top: 5px;">
+                                        <b>Technical Highlights</b>：
+                                            <div v-for="(item, i) in post.info.technicalHighlights" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            </template>
+                           
                         </div>
                     </div>
                 </div>
@@ -69,10 +104,11 @@ const formatDate = (date) => {
 </script>
 
 <style scoped>
-.git-box{
+.git-box {
     display: flex;
     justify-content: space-around;
 }
+
 ul {
     list-style-type: none;
     padding: 0;

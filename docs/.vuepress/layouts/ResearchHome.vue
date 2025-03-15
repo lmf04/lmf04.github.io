@@ -8,18 +8,58 @@
                     <div class="vp-blog-main-box">
                         <div>
                             <h1>{{ blogTitle }}</h1>
-                            
+
                             <ul>
                                 <li class="s-li" v-for="(post, i) in blogPosts" :key="i">
-                                    <router-link :to="post.path">{{i+1}}. {{ post.info.title }}</router-link>
+                                    <router-link :to="post.path"><b>{{ i + 1 }}. {{ post.info.title }}</b></router-link>
                                     <span v-if="post.info.date">{{ (post.info.date) }}</span>
-                                    <div style="margin-top: 5px;">导师：{{ post.info.teacher }}</div>
-                                    <div style="margin-top: 5px;">{{ post.info.description }}</div>
-                                    <div  style="margin-top: 5px;">贡献：
-
-                                        <div v-for="(item,i) in post.info.contribution" :key="i">
-                                            <span style="color: blue;">*</span> {{ item }}</div>
+                                    <div v-if="lang == 'zh-CN'" style="margin-top: 5px;"><b>导师</b>：{{ post.info.teacher }}
                                     </div>
+                                    <div v-else style="margin-top: 5px;"><b>Supervisor</b>:{{ post.info.teacher }}</div>
+
+                                    <div v-if="lang == 'zh-CN'" style="margin-top: 5px;"><b>研究背景与目标</b>：{{
+                                        post.info.description }}</div>
+                                    <div v-else style="margin-top: 5px;"><b>Research Background and Objectives</b>:{{ post.info.description }}</div>
+
+                                    <template v-if="lang == 'zh-CN'">
+                                        <div style="margin-top: 5px;"
+                                            v-if="post.info.progress && post.info.progress.length > 1"><b>研究进展</b>：{{
+                                                post.info.progress }}</div>
+
+                                        <div style="margin-top: 5px;"
+                                            v-if="post.info.findings && post.info.findings.length > 0">
+                                            <b>研究成果</b>：
+                                            <div v-for="(item, i) in post.info.findings" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                        </div>
+                                        <div style="margin-top: 5px;"><b>个人贡献</b>：
+
+                                            <div v-for="(item, i) in post.info.contribution" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                        </div>
+                                    </template>
+                                    <template v-else>
+                                        <div style="margin-top: 5px;"
+                                            v-if="post.info.progress && post.info.progress.length > 1"><b>Research Progress</b>:{{
+                                                post.info.progress }}</div>
+                                        <div style="margin-top: 5px;"
+                                            v-if="post.info.findings && post.info.findings.length > 0">
+                                            <b>Research Findings</b>:
+                                            <div v-for="(item, i) in post.info.findings" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                        </div>
+                                        <div style="margin-top: 5px;"><b>Personal Contributions</b>:
+
+                                            <div v-for="(item, i) in post.info.contribution" :key="i">
+                                                <span style="color: blue;">*</span> {{ item }}
+                                            </div>
+                                        </div>
+                                    </template>
+
+
                                 </li>
                             </ul>
                         </div>

@@ -6,8 +6,24 @@ date: 2024.01
 address: https://github.com/lmf04/Single-cell-analysis
 star: 100
 fork: 3
-title: 单细胞分析
-description: 用seurat处理PDAC患者和作为对照组的健康人的单细胞测序数据，进行了绘制umap图，harmony整合，基因表达差异分析，基因富集通路分析，用squidpy处理PDAC组织的空间转录组结果，单细胞空间转录组学技术通过保留空间信息的同时检测基因表达，克服了传统单细胞测序技术丢失关键空间信息的局限。这些技术在研究早期胚胎发育、人类器官发育、神经系统疾病以及肿瘤微环境中细胞类型和信号通路的空间分布方面具有重要应用
+title: 单细胞分析与癌症标志物挖掘
+#研究方向
+researchFocus:
+ - 单细胞测序数据分析
+ - 肿瘤微环境异质性研究
+
+#项目描述
+projectDescription:
+- 基于 Seurat V5 构建 PDAC 患者单细胞分析 pipeline，揭示巨噬细胞动态变化
+- 整合 Squidpy 进行空间转录组学分析，定位关键基因表达区域
+
+#技术亮点
+technicalHighlights:
+- Harmony 整合批次效应消除
+- 差异基因分析与 GSEA 通路富集
+- UMAP 可视化与细胞亚群分类
+- 
+description: 
 
 ---
 

@@ -5,8 +5,21 @@ date: 2025.02
 address: https://github.com/lmf04/Protein-prediction
 star: 100
 fork: 3
-title: 蛋白质相互作用影响
-description: 蛋白质-蛋白质相互作用（PPIs）在细胞内的几乎所有生物过程中都扮演着至关重要的角色。这些相互作用不仅影响细胞的正常生理功能，还在疾病的发生和发展中起着关键作用
+title: 蛋白质相互作用预测
+#研究方向
+researchFocus:
+ - 白质互作网络建模
+
+#项目描述
+projectDescription:
+- 开发基于图神经网络（GCN/GAT）的蛋白质相互作用预测模型，整合 STRING 数据库与 PDB 结构数据
+
+#技术亮点
+technicalHighlights:
+- PyTorch 实现端到端训练流程
+
+
+description: 
 
 ---
 
