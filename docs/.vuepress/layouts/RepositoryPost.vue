@@ -59,7 +59,7 @@ const formatDate = (date) => {
 .git-box{
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid #e2e2e3;
+    border-bottom: 1px solid var(--vp-c-border);
     padding-bottom: 10px;
 }
 h1 {
