@@ -15,7 +15,7 @@ researchFocus:
 
 #项目描述
 projectDescription:
-- 开发基于 YOLOv5 的细胞检测模型，识别准确率 95%+
+- 开发基于 YOLOv8 的细胞检测模型，识别准确率 95%+
 - 现交互式可视化界面，支持实时参数调优
 
 #技术亮点
