@@ -133,6 +133,7 @@ layout: Empty
 | **编程语言**     | Python（精通） · R（熟练） · MATLAB（熟练） · C/C++（基础）                |
 | **工具与框架**   | Seurat · PyTorch · AutoDock · Gromacs · Cytoscape · TBtools-II            |
 | **数据分析**     | Pandas · NumPy · scikit-learn · GSEA · Scanpy                             |
+| **工程能力**     | 分布式系统（Kubernetes）、微服务架构（FastAPI）、容器化部署（Docker Swarm）|
 | **可视化**       | ggplot2 · Seaborn · Plotly · PyMOL · UMAP                                 |
 
 
