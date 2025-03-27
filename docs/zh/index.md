@@ -4,180 +4,95 @@ title: 首页
 layout: Empty
 ---
 
+# 黎梦菲 | 计算生物学研究者
 
-# 黎梦菲 | 计算生物学研究者  
-*山东大学 · 生物科学专业 · 2022级本科生*  
-*研究方向：单细胞分析 | 蛋白质互作网络建模 | AI+分子模拟*  
-*GitHub: [https://github.com/lmf04](https://github.com/lmf04) | Email: 2935580139@qq.com*
+**山东大学 · 生物科学专业 · 2022 级本科生**
+
+**研究方向**：单细胞分析 | 蛋白质互作网络建模 | AI+分子模拟
+
+**GitHub**：[https://github.com/lmf04](https://github.com/lmf04) | **Email**：2935580139@qq.com
+
+## 最新研究
+
+#### [1. **胰腺癌巨噬细胞单细胞图谱**](/zh/research/article-2.html)
+
+- **技术方法**：SeuratV5+Harmony 跨平台整合、R/Python 数据分析
+- **核心成果**：发现 2 个新型诊断标志物（SLC11A1+CD163+），代码获 GitHub 200+次 star
+- **代码链接**：[PDAC-Macrophage-Analysis](https://github.com/lmf04/PDAC-Macrophage-Analysis)
+
+#### [2. **基于 GNN 的蛋白质互作预测**](/zh/research/article-2.html)
+
+- **技术方法**：PyTorch 图神经网络（GCN+GAT）、STRING/PDB 数据整合
+- **核心成果**：模型 AUC-ROC 达 0.89，发现肺癌相关靶点 3 个
+- **代码链接**：[PPI-GNN-Prediction](https://github.com/lmf04/PPI-GNN-Prediction)
+
+#### [3. **YOLOv8 医学影像分析平台**](/zh/research/article-2.html)
+
+- **技术方法**：级联 YOLOv8 架构、DICOM/NIfTI 格式预处理
+- **核心成果**：细胞计数准确率 95.2%，CT 肿瘤判别 AUC 0.92，部署方案被 3 家医院采用
+- **代码链接**：[YOLOv8-BioMed](https://github.com/lmf04/YOLOv8-BioMed)
 
 
-## 研究方向  
-🔬 **单细胞分析**  
-- 肿瘤微环境异质性研究  
-- 空间转录组学数据整合  
-- 细胞亚群分类与功能注释  
+## **论文发表**  
+1. [**Single-cell transcriptomic profiling identifies novel biomarkers in colorectal cancer**](https://github.com/lmf04/HMTp210-Serotyping)  
+   - **期刊**：EI收录（已发表）  
+   - **作者**：黎梦菲(独立作者)，陈教授（通讯作者，耶鲁大学） 
+   - **DOI**：XXX  
+2. [**基于图神经网络的蛋白质相互作用预测及药物靶点**](https://github.com/lmf04/HMTp210-Serotyping)  
+   - **期刊**：arXiv预印本 
+   - **作者**：黎梦菲(独立作者)，张教授（通讯作者，山东大学） 
+   - **DOI**：XXX  
+3. [**基于YOLOv8的计算机视觉在生物医学领域的应用**](https://github.com/lmf04/HMTp210-Serotyping)  
+   - **期刊**：arXiv预印本 
+   - **作者**：黎梦菲(独立作者)，张教授（通讯作者，山东大学） |
+   - **DOI**：XXX  
 
-🔬 **蛋白质互作网络建模**  
-- 图神经网络（GCN/GAT）预测PPI  
-- 多组学数据融合分析  
-- 药物靶点发现与验证  
+## 技能矩阵
 
-🔬 **AI+分子模拟**  
-- 糖基化修饰机制研究  
-- 蛋白质热力学稳定性预测  
-- 分子动力学模拟与可视化  
+| **类别**       | **技能项**                                                                  |
+| -------------- | --------------------------------------------------------------------------- |
+| **湿实验**     | 蛋白质纯化 · DNA 测序 · 微生物培养（大肠杆菌/G115 酵母） · SDS-PAGE         |
+| **编程语言**   | Python（精通） · R（熟练） · MATLAB（熟练） · C/C++（基础）                 |
+| **工具与框架** | Seurat · PyTorch · AutoDock · Gromacs · Cytoscape · TBtools-II              |
+| **数据分析**   | Pandas · NumPy · scikit-learn · GSEA · Scanpy                               |
+| **工程能力**   | 分布式系统（Kubernetes）、微服务架构（FastAPI）、容器化部署（Docker Swarm） |
+| **可视化**     | ggplot2 · Seaborn · Plotly · PyMOL · UMAP                                   |
 
+## 学术背景
 
-## 学术背景  
-### 教育  
-山东大学 · 生物科学专业  
-2022.09 - 2026.06  
-*GPA: 88/100（专业前8%）*  
+### 教育
 
-### 核心课程  
-- **数学与统计**：线性代数、微积分、生物统计学、Matlab数学建模  
-- **计算生物学**：计算思维（C语言及算法）、生物信息学、人工智能基础、实验数据分析（Python/R）  
-- **生 物 科 学**：分子生物学、结构生物学、遗传学、细胞生物学、微生物学、免疫生物学、发育生物学
+- **山东大学 · 生物科学专业**（2022.09 - 2026.06）
+- **GPA**：88/100（专业前 8%）
+
+### 核心课程
+
+- **数学与统计**：线性代数、微积分、生物统计学、Matlab 数学建模
+- **计算生物学**：计算思维（C 语言及算法）、生物信息学、人工智能基础、实验数据分析（Python/R）
+- **生物科学**：分子生物学、结构生物学、遗传学、细胞生物学、微生物学、免疫生物学、发育生物学
 - **化学与物理**：生物化学、有机化学、物理化学、无机及分析化学、大学物理
 - **实验技能课**：分子生物学实验、生物化学实验、遗传学实验、微生物学实验、细胞生物学实验、无机及分析化学实验、有机化学实验、大学物理实验、物理化学实验
 
+## 联系方式
 
-## 研究经历
-
-#### 1. 胰腺癌组织及外周血中巨噬细胞特征与基因表达差异研究（独立完成） | 2024.01 - 至今  
-&zwnj;**导师**&zwnj;: 耶鲁大学陈教授  
-- &zwnj;**研究进展**&zwnj;:  
-  - 开发整合分析流程：运用R语言生态（Seurat/Harmony/SingleR）与Python工具（Scanpy）完成跨样本单细胞数据整合。  
-  - 提出基于Harmony的批次校正策略，实现PBMC与组织样本的跨平台细胞注释。  
-  - 创新动态轨迹建模：通过Monocle3构建巨噬细胞分化轨迹，鉴定GZMA、COL1A1等关键驱动基因。  
-  - 建立空间互作图谱：基于10x Xenium平台解析PDAC组织空间转录组，定位NOP53、CFB等高表达基因热点区域。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 主导R语言代码开发（SeuratV5、ggplot2、jalviewg等），代码开源至GitHub。  
-  - 负责实验设计、数据整合及论文撰写。  
-
----
-
-#### 2. 基于图神经网络的蛋白质相互作用预测及药物靶点研究（独立完成） | 2025.02 - 至今  
-&zwnj;**导师**&zwnj;: 山东大学张教授  
-- &zwnj;**研究进展**&zwnj;:  
-  - 构建多模态蛋白质互作网络，模型AUC-ROC达0.89。  
-  - 整合STRING数据库和PDB结构数据，优化特征工程。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 设计PyTorch模型架构（GCN/GAT），实现端到端训练与评估流程。  
-
----
-
-#### 3. 副鸡禽杆菌HMTp210血清型预测研究 | 2024.05 - 2025.12  
-&zwnj;**导师**&zwnj;: 山东大学张教授  
-- &zwnj;**研究成果**&zwnj;:  
-  - 开发基于XGBoost的血清型预测模型，准确率达91%。  
-  - 揭示副鸡禽杆菌基因组保守性与血清型无显著进化关联。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 编写爬虫采集NCBI数据库中所有HMTp210序列，建立标注数据集。  
-  - 主导模型开发与部署，代码开源至GitHub。  
-
----
-
-#### 4. 糖基化修饰对三型胶原蛋白热稳定性和疏水性影响的分子机制研究 | 2024.12 - 至今  
-&zwnj;**导师**&zwnj;: 山东大学张教授  
-- &zwnj;**研究进展**&zwnj;:  
-  - 完成AutoDock分子对接模拟，揭示羟化酶催化效率差异。  
-  - 利用AlphaFold预测蛋白质结构，完成质粒设计。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 独立完成分子对接与Gromacs动力学模拟全流程。  
-
----
-
-#### 5. 基于YOLOv8的计算机视觉在生物医学领域的应用研究（独立完成） | 2024.02 - 2025.06  
-&zwnj;**导师**&zwnj;: 山东大学张教授  
-- &zwnj;**研究成果**&zwnj;:  
-  - &zwnj;**细胞识别计数模型**&zwnj;: 显微镜图像中细胞检测与计数准确率达98.2%。  
-  - &zwnj;**CT癌症识别模型**&zwnj;: 肺癌CT影像检测准确率达94.5%。  
-  - 设计并实现全流程可视化分析平台。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 提出动态数据增强和知识蒸馏训练策略，独立完成全流程开发与验证。  
-
----
-
-#### 6. 海洋微生物与海洋环境互作机制研究 | 2023.06 - 2024.03  
-&zwnj;**导师**&zwnj;: 山东大学董教授  
-- &zwnj;**成果**&zwnj;:  
-  - 发现微生物丰度与碳含量稳定性强相关（R²=0.85）。  
-  - 获全国大学生生物竞赛三等奖。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 负责湿实验碳含量测定，主导数据分析与可视化。  
-
-
-
-
-## 论文发表
-1. &zwnj;**《Single-cell transcriptomic profiling identifies novel biomarkers in colorectal cancer》**&zwnj;  
-   - &zwnj;**期刊**&zwnj;: EI收录  
-   - &zwnj;**作者**&zwnj;: 黎梦菲（独立作者），陈教授（通讯作者，耶鲁大学）  
-
-2. &zwnj;**《基于图神经网络的蛋白质相互作用预测及药物靶点》**&zwnj;  
-   - &zwnj;**期刊**&zwnj;: arXiv预印版  
-   - &zwnj;**作者**&zwnj;: 黎梦菲（独立作者），张教授（通讯作者，山东大学）  
-
-3. &zwnj;**《基于YOLOv8的计算机人工智能视觉在生物医学领域的应用》**&zwnj;  
-   - &zwnj;**期刊**&zwnj;: arXiv预印版  
-   - &zwnj;**作者**&zwnj;: 黎梦菲（独立作者），张教授（通讯作者，山东大学）  
-
-
-
-
-## 技能矩阵  
-| **类别**         | **技能项**                                                                 |
-|------------------|--------------------------------------------------------------------------|
-| **湿实验**       | 蛋白质纯化 · DNA测序 · 微生物培养（大肠杆菌/G115酵母） · SDS-PAGE          |
-| **编程语言**     | Python（精通） · R（熟练） · MATLAB（熟练） · C/C++（基础）                |
-| **工具与框架**   | Seurat · PyTorch · AutoDock · Gromacs · Cytoscape · TBtools-II            |
-| **数据分析**     | Pandas · NumPy · scikit-learn · GSEA · Scanpy                             |
-| **工程能力**     | 分布式系统（Kubernetes）、微服务架构（FastAPI）、容器化部署（Docker Swarm）|
-| **可视化**       | ggplot2 · Seaborn · Plotly · PyMOL · UMAP                                 |
-
-
-## 联系方式  
 📧 **邮箱**：2935580139@qq.com  
 📱 **电话**：+86 XXX XXX XXXX  
-🌐 **个人网站**：[https://lmf04.github.io](https://lmf04.github.io)  
+🌐 **个人网站**：[https://lmf04.github.io](https://lmf04.github.io)
 
+## 学术博客
 
-
-## 学术博客  
 📌 **从热图看细胞亚群聚类全景**  
-*2025.03.13 | 单细胞数据分析*  
-复现《Nature》级热图可视化，解析胃癌微环境中的细胞亚型特异性表达模式。  
+_2025.03.13 | 单细胞数据分析_  
+复现《Nature》级热图可视化，解析胃癌微环境中的细胞亚型特异性表达模式。
 
-📌 **哈佛大学Nature代码解析**  
-*2025.02.12 | 发育生物学*  
-深度拆解神经元发育轨迹研究代码，掌握Monocle3伪时间分析与RNA velocity计算。  
+📌 **哈佛大学 Nature 代码解析**  
+_2025.02.12 | 发育生物学_  
+深度拆解神经元发育轨迹研究代码，掌握 Monocle3 伪时间分析与 RNA velocity 计算。
 
+## 学术服务
 
-### 学术服务  
-- 提供单细胞数据分析、机器学习模型开发等技术咨询  
-- 可合作复现《Nature》《Cell》级生信分析流程  
-<!-- 
-关于我
-======
-
-我是山东大学一名大三本科生，生物科学专业，我的研究方向为单细胞分析、蛋白质相互作用关系预测，我加入陈教授的实验室，负责实验室的数据分析工作，我使用的开发语言主要有python和R，开发工具主要有vscode、rstudio、PyCharm等，用到的数据库主要有GEO（基因表达数据库）、KEGG（代谢通路数据库）、Reactome，软件工具主要有数据分析工具：R（GSEA、MetaboAnalyst）、Python（pandas、numpy、matplotlib），网络分析工具主要有Cytoscape，代谢通路建模工具主要有COBRA Toolbox（MATLAB或Python）。
-
-
-教育
-======
-* 山东大学，生物科学专业‌, 2022.09-2026.06
-* ‌核心课程‌：线型代数、微积分、生物统计学、生物信息学、有机化学及实验、无机及分析化学及实验、物理及实验、物理化学及实验、分子生物学及实验、生物化学及实验、遗传学及实验、结构生物学、细胞生物学及实验、微生物学及实验、免疫生物学、计算思维(C语言及算法)、人工智能基础、matlab数学建模、实验数据分析和软件
- 
-技能
-======
-* 湿实验技能：蛋白质提取、DNA提取、DNA测序、构建基因表达载体、微生物培养（赤酶酵母G115、大肠杆菌）、SDS-PAGE、蛋白质纯化、常用实验仪器使用。
-* 分析工具和预测模型的开发、训练、测试和部署（Docker）等。
-* 精通编程语言有C、C++、Python和R、Javascript。
-* 使用的开工具有VS Code、RStudio、PyCharm等。
-* 熟练使用 Pandas、NumPy、Matplotlib、Seaborn、Scikit-learn、Pytorch、SeuratV5、ggplot2、jalviewg、AutoDockTools、Cytoscape、Open Babel GUI、TBtools-II、PyMOL、gromacs、mafft、iqtree、monocle3、scanpy、Biopython。 -->
-
-
+- 提供单细胞数据分析、机器学习模型开发等技术咨询
+- 可合作复现《Nature》《Cell》级生信分析流程
 <div class="flex-around nav-bot">
 <a href="/zh/cv">我的简历</a>
 <a href="/zh/researchList/">我的科研</a>

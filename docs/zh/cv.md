@@ -35,7 +35,7 @@ layout: Empty
 ## **科研经历**  
 
 ### **独立研究项目**  
-#### 1. **胰腺癌（PDAC）巨噬细胞特征与基因表达差异研究**  
+#### [1. **胰腺癌（PDAC）巨噬细胞特征与基因表达差异研究**](/zh/research/article-2.html)
 **2024.01 - 至今 | 导师：耶鲁大学陈教授**  
 - **研究内容**：跨平台整合PDAC组织/外周血单细胞数据，挖掘早期诊断标志物  
 - **技术方法**：  
@@ -44,10 +44,10 @@ layout: Empty
 - **技术栈**：R (SeuratV5/Harmony)、Plumber API、Vue3  
 - **核心成果**：  
   ▶ 完成12,345个单细胞数据整合，识别2个新型巨噬细胞标志物（SLC11A1+CD163+）  
-  ▶ 研究成果发表于EI期刊《XXX》（DOI: XXX），被审稿人推荐作为封面文章候选  
+  ▶ 研究成果发表于EI期刊《XXX》（DOI: XXX）    
   ▶ 相关代码开源至GitHub  [仓库链接(https://github.com/lmf04/PDAC-Macrophage-Analysis)](https://github.com/lmf04/PDAC-Macrophage-Analysis)  
 
-#### 2. **基于图神经网络的蛋白质互作预测研究**  
+#### [2. **基于图神经网络的蛋白质互作预测研究**](/zh/research/article-2.html)
 **2025.02 - 至今 | 导师：山东大学张教授**  
 - **研究内容**：多模态图网络建模蛋白质互作，开发药物靶点预测工具  
 - **技术方法**：  
@@ -59,7 +59,7 @@ layout: Empty
   ▶ 相关代码开源至GitHub  [仓库链接(https://github.com/lmf04/PPI-GNN-Prediction)](https://github.com/lmf04/PPI-GNN-Prediction)  
   ▶ 研究成果提交至arXiv预印本（DOI: XXX）  
 
-#### 3. **YOLOv8生物医学影像分析平台开发**  
+#### [3. **YOLOv8生物医学影像分析平台开发**](/zh/research/article-2.html)
 **2024.02 - 2025.06 | 导师：山东大学张教授**  
 - **研究内容**：开发多任务目标检测模型，实现细胞计数与肿瘤判别  
 - **技术方法**：  
@@ -70,20 +70,19 @@ layout: Empty
 - **核心成果**：  
   ▶ 细胞计数准确率95.2%，CT肿瘤判别AUC 0.92  
   ▶ 完成300例临床样本验证，检测效率提升400%  
-  ▶ 相关代码开源至GitHub  [仓库链接(https://github.com/lmf04/YOLOv8-BioMed)](https://github.com/lmf04/YOLOv8-BioMed)  
-
+  ▶ 相关代码开源至GitHub  [仓库链接(https://github.com/lmf04/YOLOv8-BioMed)](https://github.com/lmf04/YOLOv8-BioMed)   
+  ▶ 研究成果提交至arXiv预印本（DOI: XXX）  
 
 ### **团队合作项目**  
-#### 1. **糖基化修饰对三型胶原蛋白的影响研究**  
+#### [1. **糖基化修饰对三型胶原蛋白的影响研究**](/zh/research/article-2.html)  
 **2024.12 - 至今 | 导师：山东大学张教授**  
 - **个人角色**：主要贡献者（团队3人）  
 - **具体贡献**：  
   ▶ 完成500ns Gromacs动力学模拟，揭示糖基化位点对氢键网络的影响  
   ▶ 开发糖基化位点预测工具（结合AlphaFold2与DeepGlycan），预测准确率89.7%  
   ▶ 设计3种突变体质粒，验证羟化酶催化效率差异  
-  ▶ 相关成果发表于《Journal of Biological Chemistry》（DOI: XXX）  
 
-#### 2. **副鸡禽杆菌血清型预测研究**  
+#### [2. **副鸡禽杆菌血清型预测研究**](/zh/research/article-2.html)  
 **2024.05 - 2025.12 | 导师：山东大学张教授**  
 - **个人角色**：主要执行者 （团队2人）  
 - **具体贡献**：  
@@ -92,7 +91,7 @@ layout: Empty
   ▶ 完成SHAP值可视化分析，揭示关键决定因子  
   ▶ 相关代码开源至GitHub [仓库链接(https://github.com/lmf04/HMTp210-Serotyping)](https://github.com/lmf04/HMTp210-Serotyping)  
 
-#### 3. **海洋微生物与环境互作机制研究**  
+#### [3. **海洋微生物与环境互作机制研究**](/zh/research/article-2.html)  
 **2023.06 - 2024.04 | 导师：山东大学董教授**  
 - **个人角色**：主要执行者  
 - **具体贡献**：  
@@ -102,12 +101,18 @@ layout: Empty
 
 
 ## **论文发表**  
-1. **Single-cell transcriptomic profiling identifies novel biomarkers in colorectal cancer**  
-   - **期刊**：EI收录（已发表） | **作者**：独立作者，陈教授（通讯） | **DOI**：XXX  
-2. **基于图神经网络的蛋白质相互作用预测及药物靶点**  
-   - **期刊**：arXiv预印本 | **作者**：独立作者，张教授（通讯） | **DOI**：XXX  
-3. **基于YOLOv8的计算机视觉在生物医学领域的应用**  
-   - **期刊**：arXiv预印本 | **作者**：独立作者，张教授（通讯） | **DOI**：XXX  
+1. [**Single-cell transcriptomic profiling identifies novel biomarkers in colorectal cancer**](https://github.com/lmf04/HMTp210-Serotyping)  
+   - **期刊**：EI收录（已发表）  
+   - **作者**：黎梦菲(独立作者)，陈教授（通讯作者，耶鲁大学） 
+   - **DOI**：XXX  
+2. [**基于图神经网络的蛋白质相互作用预测及药物靶点**](https://github.com/lmf04/HMTp210-Serotyping)  
+   - **期刊**：arXiv预印本 
+   - **作者**：黎梦菲(独立作者)，张教授（通讯作者，山东大学） 
+   - **DOI**：XXX  
+3. [**基于YOLOv8的计算机视觉在生物医学领域的应用**](https://github.com/lmf04/HMTp210-Serotyping)  
+   - **期刊**：arXiv预印本 
+   - **作者**：黎梦菲(独立作者)，张教授（通讯作者，山东大学） |
+   - **DOI**：XXX  
 
 
 ## **技能矩阵**  
