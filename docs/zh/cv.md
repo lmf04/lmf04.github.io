@@ -118,11 +118,11 @@ layout: Empty
 ## **技能矩阵**  
 | **技能维度**       | **具体能力**                                                                 |  
 |--------------------|-----------------------------------------------------------------------------|  
-| **湿实验技能**     | 蛋白质纯化、细胞培养（G115/大肠杆菌）、Western blot、SDS-PAGE               |  
-| **编程语言**     | Python（精通） · R（熟练） · MATLAB（熟练） · C/C++（基础）                |
-| **生物信息学**     |  Seurat/Scanpy、 AlphaFold2、AutoDock |  
-| **算法开发**       | Pandas、NumPy、GCN/GAT、YOLO、scikit-learn、Pytorch                |  
-| **工程化能力**     | Docker容器化、FastAPI微服务、交互式Web平台开发（Vue3）                     |  
+| **湿实验技能**     | 蛋白质纯化 · 细胞培养（G115/大肠杆菌）· Western blot · SDS-PAGE               |  
+| **编程语言**     | Python（精通）· R（熟练）· MATLAB（熟练）· C/C++（基础）                |
+| **生物信息学**     |  Seurat/Scanpy · AlphaFold2 · AutoDock |  
+| **算法开发**       | Pandas · NumPy · GCN/GAT · YOLO · scikit-learn · Pytorch                |  
+| **工程化能力**     | Docker容器化 · FastAPI微服务 · 交互式Web平台开发（Vue3）                     |  
 | **可视化**       | ggplot2 · Seaborn · Plotly · PyMOL · UMAP                                 |
 
 ## **奖项与荣誉**  
@@ -136,8 +136,8 @@ layout: Empty
 
 ## **推荐人**  
 1. **董教授** - 山东大学，海洋微生物生态，邮箱：dong@sdu.edu.edu  
-2. **陈教授** - 耶鲁大学，肿瘤单细胞生物学，邮箱：chen@yale.edu  
-3. **张教授** - 山东大学，微生物生物学，邮箱：zhang@sdu.edu.edu  
+2. **张教授** - 耶鲁大学，肿瘤单细胞生物学，邮箱：zhang@yale.edu  
+3. **陈教授** - 山东大学，微生物生物学，邮箱：chen@sdu.edu.edu  
 
 <!-- 其他信息（根据情况补充）
 ====== -->

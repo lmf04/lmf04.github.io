@@ -36,15 +36,15 @@ layout: Empty
 ## **论文发表**  
 1. [**Single-cell transcriptomic profiling identifies novel biomarkers in colorectal cancer**](https://github.com/lmf04/HMTp210-Serotyping)  
    - **期刊**：EI收录（已发表）  
-   - **作者**：黎梦菲(独立作者)，陈教授（通讯作者，耶鲁大学） 
+   - **作者**：黎梦菲(独立作者)，张教授（通讯作者，耶鲁大学） 
    - **DOI**：XXX  
 2. [**基于图神经网络的蛋白质相互作用预测及药物靶点**](https://github.com/lmf04/HMTp210-Serotyping)  
    - **期刊**：arXiv预印本 
-   - **作者**：黎梦菲(独立作者)，张教授（通讯作者，山东大学） 
+   - **作者**：黎梦菲(独立作者)，陈教授（通讯作者，山东大学） 
    - **DOI**：XXX  
 3. [**基于YOLOv8的计算机视觉在生物医学领域的应用**](https://github.com/lmf04/HMTp210-Serotyping)  
    - **期刊**：arXiv预印本 
-   - **作者**：黎梦菲(独立作者)，张教授（通讯作者，山东大学） |
+   - **作者**：黎梦菲(独立作者)，陈教授（通讯作者，山东大学） |
    - **DOI**：XXX  
 
 ## 技能矩阵
