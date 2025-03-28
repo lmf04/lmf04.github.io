@@ -29,7 +29,7 @@ export default defineUserConfig({
   // ],
   // 默认主题配置
   theme: defaultTheme({
-    logo: "https://vuejs.press/images/hero.png", //logo图标
+    logo: "/images/hero.png", //logo图标
     locales: {
       // 英文语言配置
       "/": {
