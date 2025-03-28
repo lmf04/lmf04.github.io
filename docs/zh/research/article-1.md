@@ -14,7 +14,7 @@ technology: R (SeuratV5/Harmony)、Plumber API、Vue3
 method: 
  - 开发R语言工作流（SeuratV5+Harmony+SingleR）实现细胞亚型注
  - 构建交互式分析平台（Plumber API+Vue3 WebUI），Docker容器化部署
-findings:
+findings: 
   - 完成12,345个单细胞数据整合，识别2个新型巨噬细胞标志物（SLC11A1+CD163+） 
   - 研究成果发表于EI期刊《XXX》（DOI:XXX）
   - 相关代码开源至GitHub  <a href="https://github.com/lmf04/PDAC-Macrophage-Analysis">仓库链接(https://github.com/lmf04/PDAC-Macrophage-Analysis)</a>

@@ -14,7 +14,7 @@ progress:
 method: 
  - 设计PyTorch模型架构（GCN+GAT），整合STRING/PDB数据特征
  - 构建肺癌相关蛋白互作网络分析 pipeline
-findings:
+findings: 
  - 模型AUC-ROC达0.89，发现3个潜在药物重定位靶点
  - 研究成果提交至arXiv预印本（DOI:XXX）
  - 相关代码开源至GitHub <a href="https://github.com/lmf04/PPI-GNN-Prediction">仓库链接(https://github.com/lmf04/PPI-GNN-Prediction)</a>

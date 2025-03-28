@@ -11,7 +11,7 @@ title: 副鸡禽杆菌 HMTp210 血清型预测研究
 teacher: 山东大学张教授
 role: 主要执行者 （团队2人）
 progress: 
-findings:
+findings: 
 contribution: 
   - 开发爬虫采集NCBI数据库2,347条HMTp210序列，构建28维特征矩阵
   - 开发XGBoost-GRU混合模型，准确率91%

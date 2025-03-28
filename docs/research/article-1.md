@@ -6,7 +6,7 @@ sort: 1
 category: 
   - 1
   - 独立项目
-title: PDAC Macrophage Single-Cell Analysis (R Implementation)
+title: 胰腺癌（PDAC）巨噬细胞特征与基因表达差异研究
 description: 跨平台整合PDAC组织/外周血单细胞数据，挖掘早期诊断标志物
 teacher: 耶鲁大学张教授
 progress: 
@@ -14,12 +14,13 @@ technology: R (SeuratV5/Harmony)、Plumber API、Vue3
 method: 
  - 开发R语言工作流（SeuratV5+Harmony+SingleR）实现细胞亚型注
  - 构建交互式分析平台（Plumber API+Vue3 WebUI），Docker容器化部署
-findings:
+findings: 
   - 完成12,345个单细胞数据整合，识别2个新型巨噬细胞标志物（SLC11A1+CD163+） 
   - 研究成果发表于EI期刊《XXX》（DOI:XXX）
   - 相关代码开源至GitHub  <a href="https://github.com/lmf04/PDAC-Macrophage-Analysis">仓库链接(https://github.com/lmf04/PDAC-Macrophage-Analysis)</a>
 contribution: 
 ---
+ 
  
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -35,7 +36,7 @@ contribution:
 - **SLC11A1+CD163+双阳性巨噬细胞亚群**在早期微环境中的特异性富集
 - 基于外周血免疫细胞特征的液体活检新策略
 
-核心创新点：
+核心创新点：  
 🔬 **首个跨平台整合算法**：实现组织与外周血scRNA-seq数据无缝整合  
 📈 **诊断标志物发现**：SLC11A1+CD163+组合的临床验证灵敏度达92.3%  
 💡 **开源分析框架**：完整可复现的R分析流程（[GitHub](https://github.com/lmf04/PDAC-Macrophage-Analysis)）
