@@ -51,7 +51,7 @@ description:
 
 ## 技术亮点
 ### 模型架构
-![Cascade-YOLO Architecture](/images/yolo.png)
+![Cascade-YOLO Architecture](/images/yolo.jpg)
 *级联检测流程：1) 全局特征提取 2) 注意力增强 3) 多任务预测头*
 
 ### 技术栈

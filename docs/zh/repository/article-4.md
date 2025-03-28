@@ -41,7 +41,7 @@ description:
 
 ## 技术亮点
 ### 模型架构
-![GNN Architecture](/images/GCN-GAT.png)  
+![GNN Architecture](/images/GCN-GAT.jpg)  
 *Hybrid GNN模型整合拓扑特征（GCN）与注意力机制（GAT）*
 
 ### 技术栈
