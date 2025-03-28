@@ -121,7 +121,10 @@ const lang = computed(() => useLang());
 const { items: blogPosts } = useBlogType('research').value;
 const blogPosts_1 = blogPosts.filter(x => x.info.category.includes(1))
 const blogPosts_2 = blogPosts.filter(x => x.info.category.includes(2))
-const hasHtml = (str) =>   /<[^>]+>/.test(str);
+const hasHtml = (str) =>  {
+    const regex = /<[a-zA-Z][^>]*>/;
+    return regex.test(str);
+};
 </script>
 
 <style scoped></style>

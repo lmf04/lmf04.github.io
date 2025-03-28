@@ -113,8 +113,10 @@ const formatDate = (date) => {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 };
 
-const hasHtml = (str) =>   /<[^>]+>/.test(str);
-
+const hasHtml = (str) =>  {
+    const regex = /<[a-zA-Z][^>]*>/;
+    return regex.test(str);
+};
 </script>
 
 <style scoped>
