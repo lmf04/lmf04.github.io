@@ -88,11 +88,15 @@ export default defineUserConfig({
         title,
         description: frontmatter.description || "",
         author: frontmatter.author || "",
+        sort: frontmatter.sort || 0,
         star: frontmatter.star || "",
+        role: frontmatter.role || "",
+        technology: frontmatter.technology || "",
         fork: frontmatter.fork || "",
         address: frontmatter.address || "",
         date: frontmatter.date || "",
         category: frontmatter.category || [],
+        method: frontmatter.method || [],
         tag: frontmatter.tag || [],
         contribution:frontmatter.contribution || [],
         teacher: frontmatter.teacher || "",
@@ -115,7 +119,7 @@ export default defineUserConfig({
             page.path.startsWith("/repository/") ||
             page.path.startsWith("/zh/repository/"),
           sorter: (prev, next) =>
-            new Date(next.frontmatter.date) - new Date(prev.frontmatter.date),
+                 Number( prev.frontmatter.sort)-Number(next.frontmatter.sort),
           frontmatter: (localePath) => ({
             title: localePath.startsWith("/zh")
               ? "代码库列表"
@@ -133,7 +137,7 @@ export default defineUserConfig({
             page.path.startsWith("/research/") ||
             page.path.startsWith("/zh/research/"),
           sorter: (prev, next) =>
-            new Date(next.frontmatter.date) - new Date(prev.frontmatter.date),
+            Number( prev.frontmatter.sort)-Number(next.frontmatter.sort),
           frontmatter: (localePath) => ({
             title: localePath.startsWith("/zh") ? "科研列表" : "researchList",
             sidebar: false,

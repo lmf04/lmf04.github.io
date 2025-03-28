@@ -51,6 +51,9 @@ const formatDate = (date) => {
 
 <style scoped>
 
+:deep(.vp-blog-main-box img){
+    max-width: 100%;
+}
 
 .iframe-box{
     border: none;

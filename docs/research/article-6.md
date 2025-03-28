@@ -1,18 +1,25 @@
 ---
-layout: ResearchPost
+date: 2023.06 - 2024.04
 archive: true
-date:  2025.02至今
-title: 基于图神经网络的蛋白质相互作用预测及药物靶点研究（独立主导）
-description: 蛋白质相互作用（PPI）预测对理解生物功能和开发新药意义重大。本研究将蛋白质互作网络抽象为图结构，利用图卷积网络（GCN）和图注意力网络（GAT）等技术预测蛋白质相互作用及药物靶点。
-teacher: 山东大学张教授
-progress: 构建多模态蛋白质互作网络，模型 AUC - ROC 达 0.89。
+sort: 6
+category: 
+  - 2
+  - 团队项目
+layout: ResearchPost
+title: 海洋微生物对海洋环境的影响 
+#description: 海洋生态系统稳定性与微生物群落及环境因子密切相关。本研究探究海水中微生物与盐度、碳含量的内在联系，为海洋生态环境的保护与修复提供科学依据。
+role: 主要执行者
+progress: 
 findings:
+teacher: 山东大学董教授
 contribution: 
-  - 设计 PyTorch 模型架构，实现端到端训练与评估流程；整合 STRING 数据库和 PDB 结构数据，优化特征工程。
+  - 完成200+份海水样本碳含量测定
+  - 主导R语言随机森林分析，发现微生物丰度与碳含量强相关
+  - 研究成果获国家级三等奖
 ---
 
 # Archive Article1
-
+dd
 ## Heading 2
 
 Here is the content.

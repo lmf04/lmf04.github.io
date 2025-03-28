@@ -12,7 +12,7 @@ layout: Empty
 
 **GitHub**：[https://github.com/lmf04](https://github.com/lmf04) | **Email**：2935580139@qq.com
 
-## 最新研究
+## **最新研究**
 
 #### [1. **胰腺癌巨噬细胞单细胞图谱**](/zh/research/article-2.html)
 
@@ -44,7 +44,7 @@ layout: Empty
    - **DOI**：XXX  
 3. [**基于YOLOv8的计算机视觉在生物医学领域的应用**](https://github.com/lmf04/HMTp210-Serotyping)  
    - **期刊**：arXiv预印本 
-   - **作者**：黎梦菲(独立作者)，陈教授（通讯作者，山东大学） |
+   - **作者**：黎梦菲(独立作者)，陈教授（通讯作者，山东大学） 
    - **DOI**：XXX  
 
 ## 技能矩阵
@@ -73,28 +73,26 @@ layout: Empty
 - **化学与物理**：生物化学、有机化学、物理化学、无机及分析化学、大学物理
 - **实验技能课**：分子生物学实验、生物化学实验、遗传学实验、微生物学实验、细胞生物学实验、无机及分析化学实验、有机化学实验、大学物理实验、物理化学实验
 
+
+## 学术博客
+ <BolgList></BolgList>
+
+## 学术服务
+
+- 提供单细胞数据分析、机器学习模型开发等技术咨询
+- 可合作复现《Nature》《Cell》级生信分析流程
+  
 ## 联系方式
 
 📧 **邮箱**：2935580139@qq.com  
 📱 **电话**：+86 XXX XXX XXXX  
 🌐 **个人网站**：[https://lmf04.github.io](https://lmf04.github.io)
 
-## 学术博客
-
-📌 **从热图看细胞亚群聚类全景**  
-_2025.03.13 | 单细胞数据分析_  
-复现《Nature》级热图可视化，解析胃癌微环境中的细胞亚型特异性表达模式。
-
-📌 **哈佛大学 Nature 代码解析**  
-_2025.02.12 | 发育生物学_  
-深度拆解神经元发育轨迹研究代码，掌握 Monocle3 伪时间分析与 RNA velocity 计算。
-
-## 学术服务
-
-- 提供单细胞数据分析、机器学习模型开发等技术咨询
-- 可合作复现《Nature》《Cell》级生信分析流程
 <div class="flex-around nav-bot">
 <a href="/zh/cv">我的简历</a>
 <a href="/zh/researchList/">我的科研</a>
 <a href="/zh/repositoryList/">我的代码库</a>
 </div>
+
+
+ 

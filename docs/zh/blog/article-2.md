@@ -2,8 +2,10 @@
 layout: BlogPost
 date: 2025.02.12
 archive: true
-title: 哈佛大学Nature的这套生信分析代码，值得学
-description: 近日，哈佛大学的研究团队在《自然》杂志上发表了一项重要研究成果，该研究深入剖析了哺乳动物下丘脑视前区（POA）神经元的发育轨迹，揭示了感觉输入、性别和功能等因素对其发育的显著影响，为我们理解本能行为的神经基础提供了全新的视角。
+title: 哈佛大学 Nature 代码解析
+category: 
+  - 发育生物学
+description: 深度拆解神经元发育轨迹研究代码，掌握 Monocle3 伪时间分析与 RNA velocity 计算。
 ---
  
 

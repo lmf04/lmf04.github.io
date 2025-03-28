@@ -3,6 +3,8 @@ layout: BlogPost
 date: 2025.03.12 
 archive: true
 title: 单细胞测序揭示EGFR突变如何改变肺腺癌的免疫微环境-1
+category: 
+  - 单细胞测序
 description: 表皮生长因子受体EGFR突变是非小细胞肺癌（NSCLC）中最常见的驱动因素，尤其在亚洲患者中，占肺腺癌（LUAD）的40%-55%。针对EGFR突变的酪氨酸激酶抑制剂（TKIs）是标准治疗方案，但最终会产生耐药性。
 ---
 

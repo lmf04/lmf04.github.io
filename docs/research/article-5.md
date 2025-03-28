@@ -1,20 +1,28 @@
 ---
 layout: ResearchPost
 archive: true
-date:  2024.12至今
-title: 糖基化修饰对三型胶原蛋白热稳定性和疏水性影响的分子机制研究
-description: 三型胶原蛋白在美容领域潜力大，但热稳定性差和疏水性强限制其应用。本研究探究糖基化修饰对三型胶原蛋白热稳定性和疏水性的影响，为其在美容美白领域的应用提供理论依据。
+date: 2024.05 - 2025.12
+sort: 5
+category: 
+  - 2
+  - 团队项目
+title: 副鸡禽杆菌 HMTp210 血清型预测研究
+# description: 副鸡禽杆菌的准确分型鉴定和疫苗开发对禽类健康养殖至关重要。本研究聚焦副鸡禽杆菌关键毒力因子 HMTp210，通过生物信息学方法分析其血清型差异，为疫苗研发和疾病防控提供理论支持。
 teacher: 山东大学张教授
-progress: 完成 AutoDock 分子对接模拟，揭示羟化酶催化效率差异。
+role: 主要执行者 （团队2人）
+progress: 
 findings:
 contribution: 
-  - 独立完成分子对接与 Gromacs 动力学模拟全流程；分析糖基化对蛋白结构热力学稳定性的影响机制。
+  - 开发爬虫采集NCBI数据库2,347条HMTp210序列，构建28维特征矩阵
+  - 开发XGBoost-GRU混合模型，准确率91%
+  - 完成SHAP值可视化分析，揭示关键决定因子
+  - 相关代码开源至GitHub <a href="https://github.com/lmf04/HMTp210-Serotyping">仓库链接(https://github.com/lmf04/HMTp210-Serotyping)</a>
 ---
 
 # Archive Article1
 
 ## Heading 2
-
+ [见代码库](https://github.com/lmf04/)
 Here is the content.
 
 ### Heading 3

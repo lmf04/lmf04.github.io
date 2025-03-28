@@ -3,7 +3,9 @@ layout: BlogPost
 date: 2025.03.13 
 archive: true
 title: 从热图看细胞亚群聚类全景
-description: 基于胃癌单细胞图谱：探索肿瘤微环境与亚型特异性表达模式-1已经复现了Figure1B和C，那就也复现一下图D叭！
+category: 
+  - 单细胞图谱
+description: 基于胃癌单细胞图谱：探索肿瘤微环境与亚型特异性表达模式-1已经复现了Figure1B和C
 ---
 
 [原文链接](https://mp.weixin.qq.com/s/RF2plVSsM1uszB7JCZsncA)
@@ -26,7 +28,7 @@ markers <- read_table("check-by-celltype/for_act.txt", col_names = F)
 Image
 check-by-celltype中包含细胞类型和标记基因的文件for_act.txt
 Image
-2. 提取所有标记基因
+1. 提取所有标记基因
 all_genes <- c()
 
 for (i in 1:nrow(markers)) {

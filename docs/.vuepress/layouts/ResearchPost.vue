@@ -7,28 +7,27 @@
                 <div class="vp-blog-main">
                     <div class="vp-blog-main-box">
                         <div v-if="lang == 'zh-CN'">
-                            <h1>{{ _value.title }} <span style="font-size: 14px;">{{ _value.frontmatter.date }}</span> </h1>
-                            <div><b>导师</b>：{{ _value.frontmatter.teacher }}</div>
-                            <div style="margin-top: 10px;"><b>研究背景与目标</b>：{{ _value.frontmatter.description }}</div>
-                            <div style="margin-top: 10px;" v-if="_value.frontmatter.progress && _value.frontmatter.progress.length > 1"><b>研究进展</b>：{{ _value.frontmatter.description }}</div>
-                          
-                            <div style="margin-top: 10px;" v-if="_value.frontmatter.findings && _value.frontmatter.findings.length > 0"><b>研究成果</b>：
+                            <h1>{{ _value.title }} </h1>
+                            <!-- <div><b>导师</b>：{{ _value.frontmatter.teacher }}</div>
+                            <div style="margin-top: 10px;"><b>研究内容</b>：{{ _value.frontmatter.description }}</div>
+                         
+                            <div style="margin-top: 10px;" v-if="_value.frontmatter.findings && _value.frontmatter.findings.length > 0"><b>核心成果</b>：
                                 <div v-for="(item, i) in _value.frontmatter.findings" :key="i">
-                                    <span style="color: blue;">*</span> {{ item }}
+                                    <span style="color: blue;">⭐</span> <font v-html="item"></font> 
                                 </div>
                             </div>
                             
-                            <div style="margin-top: 10px;"><b>个人贡献</b>：
+                            <div v-if="_value.frontmatter.category.includes(2)" style="margin-top: 10px;"><b>个人贡献</b>：
 
                                 <div v-for="(item, i) in _value.frontmatter.contribution" :key="i">
                                     <span style="color: blue;">*</span> {{ item }}
                                 </div>
-                            </div>
+                            </div> -->
                             <Content />
                         </div>
                         <div v-else>
-                            <h1>{{ _value.title }} <span style="font-size: 14px;">{{ _value.frontmatter.date }}</span> </h1>
-                            <div><b>Supervisor</b>:{{ _value.frontmatter.teacher }}</div>
+                            <h1>{{ _value.title }}  </h1>
+                            <!-- <div><b>Supervisor</b>:{{ _value.frontmatter.teacher }}</div>
                             <div style="margin-top: 10px;"><b>Research Background and Objectives</b>：{{ _value.frontmatter.description }}</div>
                             <div style="margin-top: 10px;" v-if="_value.frontmatter.progress && _value.frontmatter.progress.length > 1"><b>Research Progress</b>：{{ _value.frontmatter.description }}</div>
                           
@@ -43,7 +42,7 @@
                                 <div v-for="(item, i) in _value.frontmatter.contribution" :key="i">
                                     <span style="color: blue;">*</span> {{ item }}
                                 </div>
-                            </div>
+                            </div> -->
                             <Content />
                         </div>
                     </div>
@@ -86,5 +85,9 @@ p {
     color: #888;
     font-size: 0.9em;
     margin-bottom: 20px;
+}
+
+:deep(.vp-blog-main-box img){
+    max-width: 100%;
 }
 </style>

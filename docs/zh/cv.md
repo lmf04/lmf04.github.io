@@ -35,69 +35,11 @@ layout: Empty
 ## **科研经历**  
 
 ### **独立研究项目**  
-#### [1. **胰腺癌（PDAC）巨噬细胞特征与基因表达差异研究**](/zh/research/article-2.html)
-**2024.01 - 至今 | 导师：耶鲁大学张教授**  
-- **研究内容**：跨平台整合PDAC组织/外周血单细胞数据，挖掘早期诊断标志物  
-- **技术方法**：  
-  ▶ 开发R语言工作流（SeuratV5+Harmony+SingleR）实现细胞亚型注释  
-  ▶ 构建交互式分析平台（Plumber API+Vue3 WebUI），Docker容器化部署  
-- **技术栈**：R (SeuratV5/Harmony)、Plumber API、Vue3  
-- **核心成果**：  
-  ▶ 完成12,345个单细胞数据整合，识别2个新型巨噬细胞标志物（SLC11A1+CD163+）  
-  ▶ 研究成果发表于EI期刊《XXX》（DOI: XXX）    
-  ▶ 相关代码开源至GitHub  [仓库链接(https://github.com/lmf04/PDAC-Macrophage-Analysis)](https://github.com/lmf04/PDAC-Macrophage-Analysis)  
-
-#### [2. **基于图神经网络的蛋白质互作预测研究**](/zh/research/article-2.html)
-**2025.02 - 至今 | 导师：山东大学陈教授**  
-- **研究内容**：多模态图网络建模蛋白质互作，开发药物靶点预测工具  
-- **技术方法**：  
-  ▶ 设计PyTorch模型架构（GCN+GAT），整合STRING/PDB数据特征  
-  ▶ 构建肺癌相关蛋白互作网络分析 pipeline  
-- **技术栈**：PyTorch Geometric、D3.js、Docker  
-- **核心成果**：  
-  ▶ 模型AUC-ROC达0.89，发现3个潜在药物重定位靶点  
-  ▶ 相关代码开源至GitHub  [仓库链接(https://github.com/lmf04/PPI-GNN-Prediction)](https://github.com/lmf04/PPI-GNN-Prediction)  
-  ▶ 研究成果提交至arXiv预印本（DOI: XXX）  
-
-#### [3. **YOLOv8生物医学影像分析平台开发**](/zh/research/article-2.html)
-**2024.02 - 2025.06 | 导师：山东大学陈教授**  
-- **研究内容**：开发多任务目标检测模型，实现细胞计数与肿瘤判别  
-- **技术方法**：  
-  ▶ 级联YOLOv8架构（EfficientNetV2+CBAM注意力机制）  
-  ▶ 构建DICOM/NIfTI格式预处理流水线  
-  ▶ 构建交互式识别平台（FastAPI+Vue3 WebUI），Docker容器化部署  
-- **技术栈**：YOLOv8、OpenCV、FastAPI  
-- **核心成果**：  
-  ▶ 细胞计数准确率95.2%，CT肿瘤判别AUC 0.92  
-  ▶ 完成300例临床样本验证，检测效率提升400%  
-  ▶ 相关代码开源至GitHub  [仓库链接(https://github.com/lmf04/YOLOv8-BioMed)](https://github.com/lmf04/YOLOv8-BioMed)   
-  ▶ 研究成果提交至arXiv预印本（DOI: XXX）  
+<ResearchList :type="1"></ResearchList>
 
 ### **团队合作项目**  
-#### [1. **糖基化修饰对三型胶原蛋白的影响研究**](/zh/research/article-2.html)  
-**2024.12 - 至今 | 导师：山东大学陈教授**  
-- **个人角色**：主要贡献者（团队3人）  
-- **具体贡献**：  
-  ▶ 完成500ns Gromacs动力学模拟，揭示糖基化位点对氢键网络的影响  
-  ▶ 开发糖基化位点预测工具（结合AlphaFold3与DeepGlycan），预测准确率
-  ▶ 设计3种突变体质粒，验证羟化酶催化效率差异  
+<ResearchList :type="2"></ResearchList>
 
-#### [2. **副鸡禽杆菌血清型预测研究**](/zh/research/article-2.html)  
-**2024.05 - 2025.12 | 导师：山东大学陈教授**  
-- **个人角色**：主要执行者 （团队2人）  
-- **具体贡献**：  
-  ▶ 采集NCBI数据库2,347条HMTp210序列，构建28维特征矩阵  
-  ▶ 开发XGBoost-GRU混合模型，准确率91%  
-  ▶ 完成SHAP值可视化分析，揭示关键决定因子  
-  ▶ 相关代码开源至GitHub [仓库链接(https://github.com/lmf04/HMTp210-Serotyping)](https://github.com/lmf04/HMTp210-Serotyping)  
-
-#### [3. **海洋微生物与环境互作机制研究**](/zh/research/article-2.html)  
-**2023.06 - 2024.04 | 导师：山东大学董教授**  
-- **个人角色**：主要执行者  
-- **具体贡献**：  
-  ▶ 完成200+份海水样本碳含量测定  
-  ▶ 主导R语言随机森林分析，发现微生物丰度与碳含量强相关  
-  ▶ 研究成果获国家级三等奖  
 
 
 ## **论文发表**  
@@ -135,9 +77,9 @@ layout: Empty
 
 
 ## **推荐人**  
-1. **董教授** - 山东大学，海洋微生物生态，邮箱：dong@sdu.edu.edu  
-2. **张教授** - 耶鲁大学，肿瘤单细胞生物学，邮箱：zhang@yale.edu  
-3. **陈教授** - 山东大学，微生物生物学，邮箱：chen@sdu.edu.edu  
+1. **董教授** - 山东大学，山东大学海洋微生物实验室，邮箱：dong@sdu.edu.edu  
+2. **张教授** - 耶鲁大学，耶鲁大学肿瘤生物学系，邮箱：zhang@yale.edu  
+3. **陈教授** - 山东大学，山东大学微生物技术国家重点实验室，邮箱：chen@sdu.edu.edu  
 
 <!-- 其他信息（根据情况补充）
 ====== -->

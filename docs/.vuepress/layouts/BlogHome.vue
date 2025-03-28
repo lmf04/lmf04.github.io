@@ -9,10 +9,18 @@
                         <div>
                             <h1>{{ blogTitle }}</h1>
                             <ul>
-                                <li v-for="(post, i) in blogPosts" :key="i">
-                                    <router-link :to="post.path">{{ post.info.title }}</router-link>
-                                    <span v-if="post.info.date">{{ (post.info.date) }}</span>
+                                <li v-for="(post, i) in blogPosts" :key="i"   :style="i >= blogPosts.length-1 ? 'border-bottom:none' : ''">
+                                    <router-link :to="post.path">📌 <b>{{ post.info.title }}</b> </router-link>
+                                    <div>
+                                        <span v-if="post.info.date">{{ (post.info.date) }}</span>
+                                        <span v-if="post.info.category && post.info.category.length > 0">|</span>
+                                        <span v-if="post.info.category && post.info.category.length > 0">
+                                            <span v-for="(cat, c) in post.info.category" :key="c"> {{ cat }}
+                                                <span v-if="c < post.info.category.length">·</span>
+                                            </span>
 
+                                        </span>
+                                    </div>
                                     <div>{{ post.info.description }}</div>
                                 </li>
                             </ul>
@@ -62,7 +70,7 @@ ul {
 
 li {
     margin-bottom: 10px;
-    border-bottom: 1px solid var(--vp-c-border);
+    border-bottom: 1px solid var(--vp-c-gutter, #e2e2e3);
     padding: 0 0 10px 0;
 }
 

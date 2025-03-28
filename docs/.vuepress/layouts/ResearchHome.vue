@@ -10,56 +10,72 @@
                             <h1>{{ blogTitle }}</h1>
 
                             <ul>
-                                <li class="s-li" v-for="(post, i) in blogPosts" :key="i">
+                                <li class="s-li" v-for="(post, i) in blogPosts" :key="i"
+                                    :style="i >= blogPosts.length - 1 ? 'border-bottom:none' : ''">
                                     <router-link :to="post.path"><b>{{ i + 1 }}. {{ post.info.title }}</b></router-link>
-                                    <span v-if="post.info.date">{{ (post.info.date) }}</span>
-                                    <div v-if="lang == 'zh-CN'" style="margin-top: 5px;"><b>导师</b>：{{ post.info.teacher }}
-                                    </div>
-                                    <div v-else style="margin-top: 5px;"><b>Supervisor</b>:{{ post.info.teacher }}</div>
 
-                                    <div v-if="lang == 'zh-CN'" style="margin-top: 5px;"><b>研究背景与目标</b>：{{
-                                        post.info.description }}</div>
-                                    <div v-else style="margin-top: 5px;"><b>Research Background and Objectives</b>:{{ post.info.description }}</div>
+                                    <div v-if="lang == 'zh-CN'" style="margin-top: 5px;">
+                                        <b v-if="post.info.category && post.info.category.length>0"> {{ post.info.category[1] }} </b> | <b>{{ post.info.date }}</b> |
+                                        <b>导师</b>：<b>{{ post.info.teacher }}</b>
+                                    </div>
+                                    <div v-else style="margin-top: 5px;"><b>Advisor</b>:<b>{{ post.info.teacher }}</b></div>
+                                    <template v-if="post.info.description">
+                                        <div v-if="lang == 'zh-CN'" style="margin-top: 5px;">
+                                            <b>研究内容</b>：{{ post.info.description }}
+                                        </div>
+                                        <div v-else style="margin-top: 5px;"><b>Research Focus</b>:{{
+                                            post.info.description }}</div>
+                                    </template>
+
+
+                                    <template v-if="post.info.role">
+                                        <div v-if="lang == 'zh-CN'" style="margin-top: 5px;">
+                                            <b>个人角色</b>：{{ post.info.role }}
+                                        </div>
+                                        <div v-else style="margin-top: 5px;"><b>Role</b>:{{
+                                            post.info.role }}</div>
+                                    </template>
 
                                     <template v-if="lang == 'zh-CN'">
-                                        <div style="margin-top: 5px;"
+                                        <!-- <div style="margin-top: 5px;"
                                             v-if="post.info.progress && post.info.progress.length > 1"><b>研究进展</b>：{{
-                                                post.info.progress }}</div>
+                                                post.info.progress }}</div> -->
 
                                         <div style="margin-top: 5px;"
                                             v-if="post.info.findings && post.info.findings.length > 0">
-                                            <b>研究成果</b>：
+                                            <b>核心成果</b>：
                                             <div v-for="(item, i) in post.info.findings" :key="i">
-                                                <span style="color: blue;">*</span> {{ item }}
+                                                <span style="color: blue;">⭐</span>
+                                                <font v-html="item"></font>
                                             </div>
                                         </div>
-                                        <div style="margin-top: 5px;"><b>个人贡献</b>：
+                                        <div v-if="post.info.contribution && post.info.contribution.length > 0"
+                                            style="margin-top: 5px;"><b>具体贡献</b>：
 
                                             <div v-for="(item, i) in post.info.contribution" :key="i">
-                                                <span style="color: blue;">*</span> {{ item }}
+                                                <span style="color: blue;">⭐</span>
+                                                <font v-html="item"></font>
                                             </div>
                                         </div>
                                     </template>
                                     <template v-else>
                                         <div style="margin-top: 5px;"
-                                            v-if="post.info.progress && post.info.progress.length > 1"><b>Research Progress</b>:{{
-                                                post.info.progress }}</div>
-                                        <div style="margin-top: 5px;"
                                             v-if="post.info.findings && post.info.findings.length > 0">
-                                            <b>Research Findings</b>:
+                                            <b>Research Focus</b>:
                                             <div v-for="(item, i) in post.info.findings" :key="i">
-                                                <span style="color: blue;">*</span> {{ item }}
+                                                <span style="color: blue;">⭐</span>
+                                                <font v-html="item"></font>
                                             </div>
                                         </div>
-                                        <div style="margin-top: 5px;"><b>Personal Contributions</b>:
+                                        <div v-if="post.info.contribution && post.info.contribution.length > 0"
+                                            style="margin-top: 5px;"><b>Key Contributions</b>:
 
                                             <div v-for="(item, i) in post.info.contribution" :key="i">
-                                                <span style="color: blue;">*</span> {{ item }}
+                                                <span style="color: blue;">⭐</span>
+                                                <font v-html="item"></font>
                                             </div>
                                         </div>
                                     </template>
-
-
                                 </li>
                             </ul>
                         </div>
@@ -108,7 +124,7 @@ ul {
 
 li {
     margin-bottom: 10px;
-    border-bottom: 1px solid var(--vp-c-border);
+    border-bottom: 1px solid var(--vp-c-gutter, #e2e2e3);
     padding: 0 0 10px 0;
 }
 
@@ -116,5 +132,4 @@ span {
     margin-left: 10px;
     color: #888;
     font-size: 0.9em;
-}
-</style>
+}</style>

@@ -16,20 +16,20 @@
                             <div style="margin-top: 5px;">
                                 <b>研究方向</b>：
                                 <div v-for="(item, i) in _value.frontmatter.researchFocus" :key="i">
-                                    <span style="color: blue;">*</span> {{ item }}
+                                    <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
                             </div>
                             <div style="margin-top: 5px;">
                                 <b>项目描述</b>：
                                 <div v-for="(item, i) in _value.frontmatter.projectDescription" :key="i">
-                                    <span style="color: blue;">*</span> {{ item }}
+                                    <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
                             </div>
 
                             <div style="margin-top: 5px;">
                                 <b>技术亮点</b>：
                                 <div v-for="(item, i) in _value.frontmatter.technicalHighlights" :key="i">
-                                    <span style="color: blue;">*</span> {{ item }}
+                                    <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
                             </div>
                             <Content />
@@ -44,20 +44,20 @@
                             <div style="margin-top: 5px;">
                                 <b>Research Focus</b>：
                                 <div v-for="(item, i) in _value.frontmatter.researchFocus" :key="i">
-                                    <span style="color: blue;">*</span> {{ item }}
+                                    <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
                             </div>
                             <div style="margin-top: 5px;">
                                 <b>Project Description</b>：
                                 <div v-for="(item, i) in _value.frontmatter.projectDescription" :key="i">
-                                    <span style="color: blue;">*</span> {{ item }}
+                                    <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
                             </div>
 
                             <div style="margin-top: 5px;">
                                 <b>Technical Highlights</b>：
                                 <div v-for="(item, i) in _value.frontmatter.technicalHighlights" :key="i">
-                                    <span style="color: blue;">*</span> {{ item }}
+                                    <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
                             </div>
                             <Content />
@@ -109,5 +109,10 @@ p {
     color: #888;
     font-size: 0.9em;
     margin-bottom: 20px;
+}
+
+
+:deep(.vp-blog-main-box img){
+    max-width: 100%;
 }
 </style>

@@ -1,15 +1,26 @@
 ---
 layout: ResearchPost
 archive: true
-date: 2024.02-2024.03
-title: 基于人工智能的细胞识别计数工具开发（独立完成）
-description: 生物科研中细胞识别计数工作基础且关键，传统人工计数效率低、准确性受人为因素影响大。本研究开发基于人工智能技术的细胞识别计数工具以提高效率和准确性。
-teacher: 山东大学张教授
+date: 2024.02 - 2024.03
+sort: 3
+category: 
+  - 1
+  - 独立项目
+title: YOLOv8生物医学影像分析平台开发
+description: 开发多任务目标检测模型，实现细胞计数与肿瘤判别
+teacher: 山东大学陈教授
+technology: YOLOv8、OpenCV、FastAPI
 progress: 
+method: 
+ - 级联YOLOv8架构（EfficientNetV2+CBAM注意力机制）
+ - 构建DICOM/NIfTI格式预处理流水线
+ - 构建交互式识别平台（FastAPI+Vue3 WebUI），Docker容器化部署
 findings:
-  - 开发基于 YOLOv5 的细胞检测模型，识别准确率达 95% 以上。
+  - 细胞计数准确率95.2%，CT肿瘤判别AUC 0.92
+  - 完成300例临床样本验证，检测效率提升400%
+  - 相关代码开源至GitHub <a href="https://github.com/lmf04/YOLOv8-BioMed">仓库链接(https://github.com/lmf04/YOLOv8-BioMed)</a>  
+  - 研究成果提交至arXiv预印本（DOI:XXX）
 contribution: 
-  - 设计工具框架与算法，完成代码编写、模型训练与测试。
 ---
 
 # Archive Article1
