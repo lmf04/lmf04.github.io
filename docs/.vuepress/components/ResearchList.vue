@@ -92,15 +92,17 @@
 
                 <li v-if="lang == 'zh-CN'">
                     <b>具体贡献</b>：
-                    <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶<font v-html="item"></font></template>
+                    <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶<font v-if="hasHtml(item)" v-html="item"></font><font v-else >{{ item }}</font>
+                        </template>
                 </li>
                 <li v-else>
                     <b>Key Contributions</b>:
-                    <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶<font v-html="item"></font></template>
+                    <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶<font v-if="hasHtml(item)" v-html="item"></font><font v-else >{{ item }}</font>
+                        </template>
                 </li>
 
 
-                
+
             </ul>
         </template>
 
@@ -119,7 +121,7 @@ const lang = computed(() => useLang());
 const { items: blogPosts } = useBlogType('research').value;
 const blogPosts_1 = blogPosts.filter(x => x.info.category.includes(1))
 const blogPosts_2 = blogPosts.filter(x => x.info.category.includes(2))
-
+const hasHtml = (str) =>   /<[^>]+>/.test(str);
 </script>
 
 <style scoped></style>

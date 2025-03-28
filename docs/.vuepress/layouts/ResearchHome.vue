@@ -46,7 +46,7 @@
                                             <b>核心成果</b>：
                                             <div v-for="(item, i) in post.info.findings" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <font v-html="item"></font>
+                                                <font v-if="hasHtml(item)" v-html="item"></font><font v-else >{{ item }}</font>
                                             </div>
                                         </div>
                                         <div v-if="post.info.contribution && post.info.contribution.length > 0"
@@ -54,7 +54,7 @@
 
                                             <div v-for="(item, i) in post.info.contribution" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <font v-html="item"></font>
+                                                <font v-if="hasHtml(item)" v-html="item"></font><font v-else >{{ item }}</font>
                                             </div>
                                         </div>
                                     </template>
@@ -64,7 +64,7 @@
                                             <b>Research Focus</b>:
                                             <div v-for="(item, i) in post.info.findings" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <font v-html="item"></font>
+                                                <font v-if="hasHtml(item)" v-html="item"></font><font v-else >{{ item }}</font>
                                             </div>
                                         </div>
                                         <div v-if="post.info.contribution && post.info.contribution.length > 0"
@@ -72,7 +72,7 @@
 
                                             <div v-for="(item, i) in post.info.contribution" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <font v-html="item"></font>
+                                                <font v-if="hasHtml(item)" v-html="item"></font><font v-else >{{ item }}</font>
                                             </div>
                                         </div>
                                     </template>
@@ -113,6 +113,7 @@ const formatDate = (date) => {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 };
 
+const hasHtml = (str) =>   /<[^>]+>/.test(str);
 
 </script>
 
