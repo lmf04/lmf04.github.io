@@ -61,11 +61,21 @@
 
                 <li v-if="lang == 'zh-CN'">
                     <b>核心成果</b>：
-                    <template v-for="(item, n) in post.info.findings" :key="n"> <br>▶<font v-html="item"></font></template>
+                    <template v-for="(item, n) in post.info.findings" :key="n"> <br>▶
+                        <template v-for="(text,t) in getC(item)" :key="t">
+                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
+                            <font v-else>{{ text.text }}</font>
+                        </template>
+                    </template>
                 </li>
                 <li v-else>
                     <b>Key Achievements</b>:
-                    <template v-for="(item, n) in post.info.findings" :key="n"> <br>▶<font v-html="item"></font></template>
+                    <template v-for="(item, n) in post.info.findings" :key="n"> <br>▶
+                        <template v-for="(text,t) in getC(item)" :key="t">
+                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
+                            <font v-else>{{ text.text }}</font>
+                        </template>
+                    </template>
                 </li>
             </ul>
         </template>
@@ -93,17 +103,22 @@
                 <li v-if="lang == 'zh-CN'">
                     <b>具体贡献</b>：
                     <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶
-                        <DynamicHtml :content="item" />
+                        <template v-for="(text,t) in getC(item)" :key="t">
+                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
+                            <font v-else>{{ text.text }}</font>
+                        </template>
+                        
                     </template>
                 </li>
                 <li v-else>
                     <b>Key Contributions</b>:
-                    <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶<DynamicHtml :content="item" /> 
+                    <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶
+                        <template v-for="(text,t) in getC(item)" :key="t">
+                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
+                            <font v-else>{{ text.text }}</font>
+                        </template>
                     </template>
                 </li>
-
-
-
             </ul>
         </template>
 
@@ -122,11 +137,6 @@ const lang = computed(() => useLang());
 const { items: blogPosts } = useBlogType('research').value;
 const blogPosts_1 = blogPosts.filter(x => x.info.category.includes(1))
 const blogPosts_2 = blogPosts.filter(x => x.info.category.includes(2))
-const hasHtml = (str) => {
-    const regex = /<[a-zA-Z][^>]*>/;
-    return regex.test(str);
-};
-
 const getC = (text) => {
     const regex = /<a\s+href=["\']?([^"\'>]+)["\']?>(.*?)<\/a>|([^<]+)/g;
     let match;
