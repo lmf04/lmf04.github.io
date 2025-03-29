@@ -13,25 +13,7 @@ layout: Empty
 **GitHub**：[https://github.com/lmf04](https://github.com/lmf04) | **Email**：2935580139@qq.com
 
 ## **最新研究**
-
-#### [1. **胰腺癌巨噬细胞单细胞图谱**](/zh/research/article-2.html)
-
-- **技术方法**：SeuratV5+Harmony 跨平台整合、R/Python 数据分析
-- **核心成果**：发现 2 个新型诊断标志物（SLC11A1+CD163+），代码获 GitHub 200+次 star
-- **代码链接**：[PDAC-Macrophage-Analysis](https://github.com/lmf04/PDAC-Macrophage-Analysis)
-
-#### [2. **基于 GNN 的蛋白质互作预测**](/zh/research/article-2.html)
-
-- **技术方法**：PyTorch 图神经网络（GCN+GAT）、STRING/PDB 数据整合
-- **核心成果**：模型 AUC-ROC 达 0.89，发现肺癌相关靶点 3 个
-- **代码链接**：[PPI-GNN-Prediction](https://github.com/lmf04/PPI-GNN-Prediction)
-
-#### [3. **YOLOv8 医学影像分析平台**](/zh/research/article-2.html)
-
-- **技术方法**：级联 YOLOv8 架构、DICOM/NIfTI 格式预处理
-- **核心成果**：细胞计数准确率 95.2%，CT 肿瘤判别 AUC 0.92，部署方案被 3 家医院采用
-- **代码链接**：[YOLOv8-BioMed](https://github.com/lmf04/YOLOv8-BioMed)
-
+<ResearchListSimple :type="1"></ResearchListSimple>
 
 ## **论文发表**  
 1. [**Single-cell transcriptomic profiling identifies novel biomarkers in colorectal cancer**](https://github.com/lmf04/HMTp210-Serotyping)  

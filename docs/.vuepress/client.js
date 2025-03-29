@@ -9,12 +9,17 @@ import RepositoryHome from "./layouts/RepositoryHome.vue";
 import RepositoryPost from "./layouts/RepositoryPost.vue";
 import Print from "./components/Print.vue";
 import BolgList from "./components/BolgList.vue";
+import ResearchListSimple from "./components/ResearchListSimple.vue";
 import ResearchList from "./components/ResearchList.vue";
 
 export default defineClientConfig({
   enhance({ app }) {
     app.component("Print", Print);
     app.component("ResearchList", ResearchList);
+    app.component("BolgList", BolgList);
+    app.component("ResearchListSimple", ResearchListSimple);
+
+    
     app.component("DynamicHtml", {
       props: ["content"],
       template: '<font v-html="content"></font>',
