@@ -46,7 +46,7 @@
                                             <b>核心成果</b>：
                                             <div v-for="(item, i) in post.info.findings" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <DynamicHtml :content="item" /> 
+                                                <span v-html="item"></span>
                                             </div>
                                         </div>
                                         <div v-if="post.info.contribution && post.info.contribution.length > 0"
@@ -54,7 +54,7 @@
 
                                             <div v-for="(item, i) in post.info.contribution" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <DynamicHtml :content="item" /> 
+                                                <span v-html="item"></span>
                                             </div>
                                         </div>
                                     </template>
@@ -64,7 +64,7 @@
                                             <b>Research Focus</b>:
                                             <div v-for="(item, i) in post.info.findings" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <DynamicHtml :content="item" /> 
+                                                <span v-html="item"></span>
                                             </div>
                                         </div>
                                         <div v-if="post.info.contribution && post.info.contribution.length > 0"
@@ -72,7 +72,7 @@
 
                                             <div v-for="(item, i) in post.info.contribution" :key="i">
                                                 <span style="color: blue;">⭐</span>
-                                                <DynamicHtml :content="item" /> 
+                                                <span v-html="item"></span>
                                             </div>
                                         </div>
                                     </template>
@@ -131,8 +131,9 @@ li {
     padding: 0 0 10px 0;
 }
 
-span {
+/* span {
     margin-left: 10px;
     color: #888;
     font-size: 0.9em;
-}</style>
+} */
+</style>

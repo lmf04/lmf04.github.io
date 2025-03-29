@@ -62,19 +62,13 @@
                 <li v-if="lang == 'zh-CN'">
                     <b>核心成果</b>：
                     <template v-for="(item, n) in post.info.findings" :key="n"> <br>▶
-                        <template v-for="(text,t) in getC(item)" :key="t">
-                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
-                            <font v-else>{{ text.text }}</font>
-                        </template>
+                        <span v-html="item"></span>
                     </template>
                 </li>
                 <li v-else>
                     <b>Key Achievements</b>:
                     <template v-for="(item, n) in post.info.findings" :key="n"> <br>▶
-                        <template v-for="(text,t) in getC(item)" :key="t">
-                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
-                            <font v-else>{{ text.text }}</font>
-                        </template>
+                        <span v-html="item"></span>
                     </template>
                 </li>
             </ul>
@@ -103,20 +97,14 @@
                 <li v-if="lang == 'zh-CN'">
                     <b>具体贡献</b>：
                     <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶
-                        <template v-for="(text,t) in getC(item)" :key="t">
-                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
-                            <font v-else>{{ text.text }}</font>
-                        </template>
+                        <span v-html="item"></span>
                         
                     </template>
                 </li>
                 <li v-else>
                     <b>Key Contributions</b>:
                     <template v-for="(item, n) in post.info.contribution" :key="n"> <br>▶
-                        <template v-for="(text,t) in getC(item)" :key="t">
-                            <a v-if="text.href && text.href.length>1" :href="text.href">{{ text.text }}</a>
-                            <font v-else>{{ text.text }}</font>
-                        </template>
+                        <span v-html="item"></span>
                     </template>
                 </li>
             </ul>
