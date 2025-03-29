@@ -1,6 +1,6 @@
 ---
 home: false
-title: 简历
+title: CV
 layout: Empty
 ---
 

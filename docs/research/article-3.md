@@ -8,7 +8,7 @@ category:
   - 独立项目
 title: YOLOv8生物医学影像分析平台开发
 description: 开发多任务目标检测模型，实现细胞计数与肿瘤判别
-teacher: 山东大学陈教授
+teacher: 
 technology: YOLOv8、OpenCV、FastAPI
 progress: 
 method: 

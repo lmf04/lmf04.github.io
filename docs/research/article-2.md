@@ -8,8 +8,8 @@ category:
 date:  2025.02 - 至今
 title: 基于图神经网络的蛋白质互作预测研究
 description: 多模态图网络建模蛋白质互作，开发药物靶点预测工具
-teacher: 山东大学陈教授
-technology: PyTorch Geometric、D3.js、Docker
+teacher: 
+technology: PyTorch Geometric、Docker
 progress: 
 method: 
  - 设计PyTorch模型架构（GCN+GAT），整合STRING/PDB数据特征
