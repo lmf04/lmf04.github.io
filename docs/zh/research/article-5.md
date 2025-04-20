@@ -13,9 +13,9 @@ role: 主要执行者 （团队2人）
 progress: 
 findings: 
 contribution: 
-  - 开发爬虫采集NCBI数据库2,347条HMTp210序列，构建28维特征矩阵
-  - 开发XGBoost-GRU混合模型，准确率91%
-  - 完成SHAP值可视化分析，揭示关键决定因子
+  - 开发爬虫采集NCBI数据库346条HMTp210序列。
+  - 用已知血清型的53条HMTp210序列用mafft进行序列比对后用iqtree绘制了进化树。
+  - 用Support Vector Machine、Random Forest、Gradient Boosted Regression Tree、Naive Bayes、Logistic Regression、Multilayer Perceptron、Decision Tree这些机器学习方法以已知血清型的53条序列的疏水性特征为训练集对未知血清型的HMTp210进行了血清型预测。
   - 相关代码开源至GitHub <a href="https://github.com/lmf04/HMTp210-Serotyping">仓库链接(https://github.com/lmf04/HMTp210-Serotyping)</a>
 ---
 

@@ -51,10 +51,6 @@ layout: Empty
    - **期刊**：arXiv预印本 
    - **作者**：黎梦菲(独立作者) 
    - **DOI**：XXX  
-3. [**基于YOLOv8的计算机视觉在生物医学领域的应用**](https://github.com/lmf04/HMTp210-Serotyping)  
-   - **期刊**：arXiv预印本 
-   - **作者**：黎梦菲(独立作者)
-   - **DOI**：XXX  
 
 
 ## **技能矩阵**  

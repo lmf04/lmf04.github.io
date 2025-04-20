@@ -15,7 +15,8 @@ method:
  - 开发R语言工作流（SeuratV5+Harmony+SingleR）实现细胞亚型注释
  - 构建交互式分析平台（Plumber API+Vue3 WebUI），Docker容器化部署
 findings: 
-  - 完成12,345个单细胞数据整合，识别2个新型巨噬细胞标志物（SLC11A1+CD163+） 
+  - 完成41个单细胞测序样本的分析，发现了T细胞浸润减少，促瘤表型巨噬细胞（TAMs）如COL1A1介导的ECM重塑，导致癌表型巨噬细胞扩增；TME重编程导致TAMs细胞毒性基因GZMA/NKG7表观沉默。
+  - 空间转录组学显示NOP53/SPP1与肿瘤细胞共定位，关联核糖体生物合成与免疫逃逸。NOP53/STC1/SPP1高表达特征可作为新型诊断标志物；靶向TAM可塑性或CXCL9:SPP1失衡可能提升免疫治疗效果。
   - 研究成果发表于EI期刊《XXX》（DOI:XXX）
   - 相关代码开源至GitHub  <a href="https://github.com/lmf04/PDAC-Macrophage-Analysis">仓库链接(https://github.com/lmf04/PDAC-Macrophage-Analysis)</a>
 contribution: 
