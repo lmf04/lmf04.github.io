@@ -38,6 +38,14 @@ jobs:
         run: |-
           > docs/.vuepress/dist/.nojekyll
 
+      - name: Clear files on gh-pages branch
+        run: |
+          git checkout gh-pages
+          git rm -rf .
+          git commit -m "Clear files on gh-pages branch" || true
+          git push origin gh-pages
+          git checkout master
+
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
