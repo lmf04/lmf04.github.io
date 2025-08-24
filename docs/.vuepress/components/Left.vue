@@ -45,7 +45,7 @@
             </svg>
             <span class="vp-social-media-text">CV Dowonload</span>
           </a>
-            <a class="vp-social-media-a" href="mailto:2935580139@qq.com" rel="noopener noreferrer" target="_blank"
+            <a class="vp-social-media-a" href="mailto:202223142018@mail.sdu.edu.cn" rel="noopener noreferrer" target="_blank"
               aria-label="Email" data-balloon-pos="up">
               <svg xmlns="http://www.w3.org/2000/svg" class="vp-social-media-icon email-icon" viewBox="0 0 1024 1024">
                 <circle cx="512" cy="512" r="512" fill="#1384FF"></circle>

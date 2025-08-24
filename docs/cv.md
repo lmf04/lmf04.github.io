@@ -18,7 +18,7 @@ layout: Empty
 ### **EDUCATION**
 ##### **Shandong University** | Bachelor of Biological Sciences | 2022.09-2026.06 <br>
  * **GPA**：88/100 <br>
- * **Honors:**First-class Scholarship (top 10%), Third-class Scholarship
+Honors:First-class Scholarship (top 10%), Third-class Scholarship
 
 
 ### **RESEARCH EXPERIENCE**
