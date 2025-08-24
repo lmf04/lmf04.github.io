@@ -59,14 +59,14 @@
                                         </div>
                                     </template>
                                     <template v-else>
-                                        <div style="margin-top: 5px;"
+                                        <!-- <div style="margin-top: 5px;"
                                             v-if="post.info.findings && post.info.findings.length > 0">
                                             <b>Research Focus</b>:
                                             <div v-for="(item, i) in post.info.findings" :key="i">
                                                 <span style="color: blue;">⭐</span>
                                                 <span v-html="item"></span>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div v-if="post.info.contribution && post.info.contribution.length > 0"
                                             style="margin-top: 5px;"><b>Key Contributions</b>:
 

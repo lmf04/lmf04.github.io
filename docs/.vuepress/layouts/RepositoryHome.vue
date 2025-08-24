@@ -30,12 +30,12 @@
                                             </div>
                                         </div>
 
-                                        <div style="margin-top: 5px;">
+                                      <!--   <div style="margin-top: 5px;">
                                             <b>技术亮点</b>：
                                             <div v-for="(item, i) in post.info.technicalHighlights" :key="i">
                                                 <span style="color: blue;">⭐</span> {{ item }}
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </li>
                                 </ul>
                             </template>
@@ -48,12 +48,12 @@
                                             post.info.address }}</a></div>
                                         <div style="margin-top: 5px;"><b>Fork/Star</b>：{{ post.info.fork }}/{{
                                             post.info.star }}</div>
-                                        <div style="margin-top: 5px;">
+                                        <!-- <div style="margin-top: 5px;">
                                             <b>Research Focus</b>：
                                             <div v-for="(item, i) in post.info.researchFocus" :key="i">
                                                 <span style="color: blue;">⭐</span> {{ item }}
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div style="margin-top: 5px;">
                                             <b>Project Description</b>：
                                             <div v-for="(item, i) in post.info.projectDescription" :key="i">
@@ -61,12 +61,12 @@
                                             </div>
                                         </div>
 
-                                        <div style="margin-top: 5px;">
+                                        <!-- <div style="margin-top: 5px;">
                                             <b>Technical Highlights</b>：
                                             <div v-for="(item, i) in post.info.technicalHighlights" :key="i">
                                                 <span style="color: blue;">⭐</span> {{ item }}
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </li>
                                 </ul>
                             </template>

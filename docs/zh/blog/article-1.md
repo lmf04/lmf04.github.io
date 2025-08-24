@@ -2,177 +2,185 @@
 layout: BlogPost
 date: 2025.01.12 
 archive: true
-title: Python 中的with关键字使用详解
-category: 
-  - python学习
-description: 在 Python 2.5 中， with 关键字被加入。它将常用的 try ... except ... finally ... 模式很方便的被复用。
+title: Python 中 with的详细用法
+description: Python 2.5 中引入了 with 关键字，它提供了一种方便的方式来重用常见的 try ... except ... finally ...模式
 ---
-以下是整理后的 Markdown 格式内容：
+ 
 
-## `with` 的引入与作用
-
-在 Python 2.5 中，`with` 关键字被引入，用于简化常见的 `try ... except ... finally ...` 模式。它允许我们将资源管理（如文件、数据库事务等）封装为上下文管理器，从而确保资源在使用后被正确释放。
-
-### 经典示例：文件操作
-
-```python
+在 Python 2.5 中， with 关键字被加入。它将常用的 try ... except ... finally ... 模式很方便的被复用。看一个最经典的例子：
 with open('file.txt') as f:
-    content = f.read()
-```
+  content = f.read()
+在这段代码中，无论 with 中的代码块在执行的过程中发生任何情况，文件最终都会被关闭。如果代码块在执行的过程中发生了一个异常，那么在这个异常被抛出前，程序会先将被打开的文件关闭。
 
-在这段代码中，无论 `with` 块中是否发生异常，文件最终都会被关闭。如果块中发生异常，异常会在文件关闭后抛出。
+再看另外一个例子。
 
-### 数据库事务示例
-
-传统的数据库事务代码通常如下：
-
-```python
+在发起一个数据库事务请求的时候，经常会用类似这样的代码：
+ 
 db.begin()
+ 
 try:
-    # 执行一些操作
+  # do some actions
 except:
-    db.rollback()
-    raise
+  db.rollback()
+  raise
 finally:
-    db.commit()
-```
-
-如果使用支持 `with` 的上下文管理器，代码可以简化为：
-
-```python
+  db.commit()
+如果将发起事务请求的操作变成可以支持 with 关键字的，那么用像这样的代码就可以了：
+ 
 with transaction(db):
-    # 执行一些操作
-```
+  # do some actions
+下面，详细的说明一下 with 的执行过程，并用两种常用的方式实现上面的代码。
 
-## `with` 的执行过程
+with 的一般执行过程
 
-`with` 表达式的基本结构如下：
+一段基本的 with 表达式，其结构是这样的：
 
-```python
 with EXPR as VAR:
-    BLOCK
-```
+  BLOCK
+其中： EXPR 可以是任意表达式； as VAR 是可选的。其一般的执行过程是这样的：
 
-其中：
-- `EXPR` 是任意表达式，返回一个上下文管理器。
-- `as VAR` 是可选的，用于接收上下文管理器的返回值。
+计算 EXPR ，并获取一个上下文管理器。
+上下文管理器的 __exit()__ 方法被保存起来用于之后的调用。
+调用上下文管理器的 __enter()__ 方法。
+如果 with 表达式包含 as VAR ，那么 EXPR 的返回值被赋值给 VAR 。
+执行 BLOCK 中的表达式。
+调用上下文管理器的 __exit()__ 方法。如果 BLOCK 的执行过程中发生了一个异常导致程序退出，那么异常的 type 、 value 和 traceback (即 sys.exc_info()的返回值 )将作为参数传递给 __exit()__ 方法。否则，将传递三个 None 。
+将这个过程用代码表示，是这样的：
 
-### 执行步骤
-
-1. **计算表达式**：计算 `EXPR`，获取一个上下文管理器。
-2. **保存退出方法**：将上下文管理器的 `__exit__` 方法保存起来。
-3. **调用 `__enter__` 方法**：执行上下文管理器的 `__enter__` 方法。
-4. **赋值变量**：如果 `with` 表达式包含 `as VAR`，则将 `EXPR` 的返回值赋值给 `VAR`。
-5. **执行块代码**：执行 `BLOCK` 中的代码。
-6. **调用 `__exit__` 方法**：无论 `BLOCK` 是否发生异常，都会调用 `__exit__` 方法。如果发生异常，异常的类型、值和 traceback 将作为参数传递给 `__exit__` 方法；否则传递三个 `None`。
-
-用伪代码表示如下：
-
-```python
-mgr = EXPR
-exit = type(mgr).__exit__
+mgr = (EXPR)
+exit = type(mgr).__exit__ # 这里没有执行
 value = type(mgr).__enter__(mgr)
 exc = True
-
+ 
 try:
-    try:
-        VAR = value  # 如果有 as VAR
-        BLOCK
-    except:
-        exc = False
-        if not exit(mgr, *sys.exc_info()):
-            raise
+  try:
+    VAR = value # 如果有 as VAR
+    BLOCK
+  except:
+    exc = False
+    if not exit(mgr, *sys.exc_info()):
+      raise
 finally:
-    if exc:
-        exit(mgr, None, None, None)
-```
+  if exc:
+    exit(mgr, None, None, None)
+这个过程有几个细节：
 
-### 关键细节
+如果上下文管理器中没有 __enter()__ 或者 __exit()__ 中的任意一个方法，那么解释器会抛出一个 AttributeError 。
+在 BLOCK 中发生异常后，如果 __exit()__ 方法返回一个可被看成是 True 的值，那么这个异常就不会被抛出，后面的代码会继续执行。
 
-- 如果上下文管理器缺少 `__enter__` 或 `__exit__` 方法，解释器会抛出 `AttributeError`。
-- 如果 `BLOCK` 中发生异常，`__exit__` 方法返回 `True` 时，异常不会被抛出，后续代码会继续执行。
+接下来，用两种方法来实现上面来实现上面的过程的吧。
 
-## 实现上下文管理器的两种方式
+实现上下文管理器类
 
-### 方法 1：实现上下文管理器类
+第一种方法是实现一个类，其含有一个实例属性 db 和上下文管理器所需要的方法 __enter()__ 和 __exit()__ 。
 
-通过实现一个类并定义 `__enter__` 和 `__exit__` 方法，可以创建支持 `with` 的上下文管理器。
-
-```python
 class transaction(object):
-    def __init__(self, db):
-        self.db = db
+  def __init__(self, db):
+    self.db = db
+ 
+  def __enter__(self):
+    self.db.begin()
+ 
+  def __exit__(self, type, value, traceback):
+    if type is None:
+      db.commit()
+    else:
+      db.rollback()
+了解 with 的执行过程后，这个实现方式是很容易理解的。下面介绍的实现方式，其原理理解起来要复杂很多。
 
-    def __enter__(self):
-        self.db.begin()
+使用生成器装饰器
 
-    def __exit__(self, type, value, traceback):
-        if type is None:
-            self.db.commit()
-        else:
-            self.db.rollback()
-```
+在Python的标准库中，有一个装饰器可以通过生成器获取上下文管理器。使用生成器装饰器的实现过程如下：
 
-### 方法 2：使用生成器装饰器
-
-Python 标准库中的 `contextlib.contextmanager` 装饰器可以通过生成器实现上下文管理器。
-
-```python
 from contextlib import contextmanager
-
+ 
 @contextmanager
 def transaction(db):
-    db.begin()
+  db.begin()
+ 
+  try:
+    yield db
+  except:
+    db.rollback()
+    raise
+  else:
+    db.commit()
+第一眼上看去，这种实现方式更为简单，但是其机制更为复杂。看一下其执行过程吧：
+
+Python解释器识别到 yield 关键字后， def 会创建一个生成器函数替代常规的函数（在类定义之外我喜欢用函数代替方法）。
+装饰器 contextmanager 被调用并返回一个帮助方法，这个帮助函数在被调用后会生成一个 GeneratorContextManager 实例。最终 with 表达式中的 EXPR 调用的是由 contentmanager 装饰器返回的帮助函数。
+with 表达式调用 transaction(db) ，实际上是调用帮助函数。帮助函数调用生成器函数，生成器函数创建一个生成器。
+帮助函数将这个生成器传递给 GeneratorContextManager ，并创建一个 GeneratorContextManager 的实例对象作为上下文管理器。
+with 表达式调用实例对象的上下文管理器的 __enter()__ 方法。
+__enter()__ 方法中会调用这个生成器的 next() 方法。这时候，生成器方法会执行到 yield db 处停止，并将 db 作为 next() 的返回值。如果有 as VAR ，那么它将会被赋值给 VAR 。
+with 中的 BLOCK 被执行。
+BLOCK 执行结束后，调用上下文管理器的 __exit()__ 方法。 __exit()__ 方法会再次调用生成器的 next() 方法。如果发生 StopIteration 异常，则 pass 。
+如果没有发生异常生成器方法将会执行 db.commit() ，否则会执行 db.rollback() 。
+再次看看上述过程的代码大致实现：
+ 
+def contextmanager(func):
+  def helper(*args, **kwargs):
+    return GeneratorContextManager(func(*args, **kwargs))
+  return helper
+ 
+class GeneratorContextManager(object):
+  def __init__(self, gen):
+    self.gen = gen
+ 
+  def __enter__(self):
     try:
-        yield db
-    except:
-        db.rollback()
-        raise
+      return self.gen.next()
+    except StopIteration:
+      raise RuntimeError("generator didn't yield")
+ 
+  def __exit__(self, type, value, traceback):
+    if type is None:
+      try:
+        self.gen.next()
+      except StopIteration:
+        pass
+      else:
+        raise RuntimeError("generator didn't stop")
     else:
-        db.commit()
-```
+      try:
+        self.gen.throw(type, value, traceback)
+        raise RuntimeError("generator didn't stop after throw()")
+      except StopIteration:
+        return True
+      except:
+        if sys.exc_info()[1] is not value:
+          raise
+总结
 
-#### 执行过程
+Python的 with 表达式包含了很多Python特性。花点时间吃透 with 是一件非常值得的事情。
 
-1. `contextmanager` 装饰器将生成器函数包装为一个帮助函数。
-2. `with` 表达式调用 `transaction(db)`，实际上是调用帮助函数。
-3. 帮助函数创建一个 `GeneratorContextManager` 实例作为上下文管理器。
-4. 调用 `__enter__` 方法时，生成器执行到 `yield` 处暂停，并返回 `yield` 的值。
-5. `BLOCK` 执行结束后，调用 `__exit__` 方法，继续执行生成器的剩余代码。
+一些其他的例子
 
-## 示例：锁机制与标准输出重定向
+锁机制
 
-### 锁机制
-
-```python
+ 
 @contextmanager
 def locked(lock):
-    lock.acquire()
-    try:
-        yield
-    finally:
-        lock.release()
-```
+  lock.acquired()
+  try:
+    yield
+  finally:
+    lock.release()
+标准输出重定向
 
-### 标准输出重定向
-
-```python
+ 
 @contextmanager
 def stdout_redirect(new_stdout):
-    old_stdout = sys.stdout
-    sys.stdout = new_stdout
-    try:
-        yield
-    finally:
-        sys.stdout = old_stdout
-
+  old_stdout = sys.stdout
+  sys.stdout = new_stdout
+  try:
+    yield
+  finally:
+    sys.stdout = old_stdout
+ 
 with open("file.txt", "w") as f:
-    with stdout_redirect(f):
-        print("hello world")
-```
+  with stdout_redirect(f):
+    print "hello world"
+参考资料
 
-## 总结
-
-Python 的 `with` 表达式结合了生成器、装饰器和异常处理等特性，是一种非常强大的工具。理解其工作原理并灵活应用，可以显著提高代码的可读性和健壮性。
- 
- 
+The Python “with” Statement by Example

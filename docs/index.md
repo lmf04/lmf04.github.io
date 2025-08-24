@@ -5,149 +5,80 @@ layout: Empty
 ---
 
 
-# 黎梦菲 | 计算生物学研究者  
-*山东大学 · 生物科学专业 · 2022级本科生*    
-*GitHub: [https://github.com/lmf04](https://github.com/lmf04) | Email: 2935580139@qq.com*
+### **Personal Information**
+* **NAME**：Mengfei Li
+* **Personal Website**: [https://lmf04.github.io](https://lmf04.github.io/)
+* **GitHub**: [https://github.com/lmf04](https://github.com/lmf04)
+
+### **EDUCATION**
+##### **Shandong University** | Bachelor of Biological Sciences | 2022.09-2026.06 <br>
+ * **GPA**：88/100 <br>
+ * **Honors:**First-class Scholarship (top 10%), Third-class Scholarship
 
 
-## 研究方向  
-🔬 **单细胞分析**  
-- 肿瘤微环境异质性研究  
-- 空间转录组学数据整合  
-- 细胞亚群分类与功能注释  
-
-🔬 **蛋白质互作网络建模**  
-- 图神经网络（GCN/GAT）预测PPI  
-- 多组学数据融合分析  
-- 药物靶点发现与验证  
-
-🔬 **AI+分子模拟**  
-- 糖基化修饰机制研究  
-- 蛋白质热力学稳定性预测  
-- 分子动力学模拟与可视化  
+### **RESEARCH EXPERIENCE**
+#### 1.Spatiotemporal Transcriptomic Analysis of Tumor-Associated Macrophage Heterogeneity and Bifunctional Molecular Nodes in Pancreatic Ductal Adenocarcinoma 
+* **Research Assistant (remote), Supervised by Prof. Guangwei Zhang from USC**
+* **06/2024-04/2025** 
+• Preprocessed and clustered scRNA-seq data (16 PDAC tumors, 3 normal tissues; 16 PDAC PBMCs, 4 healthy PBMCs) using Harmony for batch correction and SingleR/Seurat v5 for annotation, to identify spatial collapse of T cells and TAM expansion associated with COL1A1-driven ECM remodeling. 
+• Conducted pseudotime trajectory inference on myeloid-to-macrophage lineages via Monocle3, uncovering epigenetic silencing of cytotoxic pathways (GZMA/NKG7 downregulation) and upregulation of ribosomal biogenesis in PDAC-derived TAMs. 
+• Processed and analyzed 10x Xenium FFPE spatial transcriptomic data using Squidpy + Scanpy, followed by DESeq2 and FindAllMarkers for DEG analysis, and GO/KEGG enrichment to identify key immune modulators. 
+• Identified bifunctional regulatory molecules including NOP53 (activates p53, suppresses PI3K-AKT) and SPP1 (involved in both metastasis and anti-tumor immunity), and validated their spatial co-localization with TAMs and tumor cells. 
 
 
-## 学术背景  
-### 教育  
-山东大学 · 生物科学专业  
-2022.09 - 2026.06  
-*GPA: 88/100*  
+#### 2.Bioinformatics Research on HMTp210-Based Serotyping and Epitope Profiling of Avibacterium Paragallinarum 
+* **Research Assistant, Supervised by Prof. Min Chen from Shandong University**
+* **12/2024-03/2025**
+• Led a full-stack genomic and structural bioinformatics analysis of HMTp210, a hemagglutinin protein from Avibacterium paragallinarum (Apg), and pioneered the first sequence-based serotyping model for Apg using 91 strains from NCBI. 
+• Constructed a robust serotyping framework integrating phylogenetic tree building (PhyloPhlAn), pan-genome analysis (BPGA + MAFFT), and motif detection (MEME), classifying HMTp210 into 3 major serogroups (A/B/C) and 8 subtypes (A1–C3) based on Region2-specific divergence. 
+• Applied AlphaFold2 for full-length 3D structure prediction of A/B/C representatives, revealing HMTp210 as a trimeric TAA (trimeric autotransporter adhesin) with well-defined head (β-sheet), stalk (“α-helix–loop–β”) and anchor (β-barrel) domains. 
+• Performed B-cell epitope prediction using IEDB and Rankpep, identifying 6 conserved immunodominant epitopes enriched in Region2/3, including a novel “clover-shaped loop” structure with >95% cross-serotype conservation. 
+• Identified A-type specific epitope (1634N–1640T) and C2-subtype–unique insertions, enabling development of a motif-based subtyping model and offering theoretical groundwork for subtype-specific recombinant vaccine design. 
 
-### 核心课程  
-- **数学与统计**：线性代数、微积分、生物统计学、Matlab数学建模  
-- **计算生物学**：计算思维（C语言及算法）、生物信息学、人工智能基础、实验数据分析（Python/R）  
-- **生 物 科 学**：分子生物学、结构生物学、遗传学、细胞生物学、微生物学、免疫生物学、发育生物学
-- **化学与物理**：生物化学、有机化学、物理化学、无机及分析化学、大学物理
-- **实验技能课**：分子生物学实验、生物化学实验、遗传学实验、微生物学实验、细胞生物学实验、无机及分析化学实验、有机化学实验、大学物理实验、物理化学实验
+#### 3.YOLOv8-Based Biomedical Image Analysis Platform Development 
+* **Independent Project**
+* **01/2025-02/2025**
+• Developed a multi-task YOLOv8 detection model with EfficientNetV2 backbone and CBAM attention modules. The model detects and counts cells in microscopy images with 95.2% accuracy and locates and classifies lung tumors on CT scans, improving accuracy by 23% compared to traditional methods (p < 0.01). 
+• Built an image preprocessing pipeline supporting DICOM and NIfTI formats to handle biomedical imaging data across different modalities. 
+• Designed and implemented an interactive visualization platform using FastAPI for backend and Vue3 for frontend. The platform integrates preprocessing, model inference, annotation, and automated report generation to streamline clinical and research workflows. 
+• Package the platform with Docker for deployment on servers and local workstations, ensuring compatibility across devices. The project is publicly available on GitHub. 
 
+### **COMPETITION/PROJECT EXPERIENCE**                                                                          
+#### 1.Glycoengineering to Enhance Thermal Stability of Type III Collagen 
+* **China Undergraduate Life Science Competition**   
+* **01/2025-present** 
+• Constructed recombinant plasmid pRSFDuet-COL3A1 by preserving the Gly-X-Y repeats of type III collagen and adding a 4DANYTK glycosylation tag and 6His purification tag, based on multiple sequence alignment of 220 homologs. 
+• Engineered a dual-plasmid expression system (pRSFDuet-COL3A1-AaFQ and pET45b-α1,6-GlcT) in E. coli BL21(DE3) to co-express AaFQ glycosyltransferase and produce glycosylated collagen (Glc-Col and Glcn-Col). 
+• Assessed protein modification using SDS-PAGE and Western blot, which showed increased molecular weight and solubility in glycosylated forms compared to unmodified collagen. 
+• Used AlphaFold3 and PyMOL to model surface accessibility and hydrophilicity of glycosylation sites, showing that the modified residues were located on exposed surface regions. 
+• Confirmed structural integrity of glycosylated collagen with circular dichroism (CD) spectroscopy; the α-helical profile remained intact, supporting improved thermal stability. 
 
-## 研究经历
+#### 2.Locating Bacterial Flagellar Motors 
+* **Top 5 Gold Prize, BYU CryoET Challenge 2025, Kaggle Competition**
+* **06/2025**
+• Designed an automated pipeline for identifying sparse bacterial flagellar motors in low-SNR 3D Cryo-ET images. 
+• Developed a “2.5D slicing” strategy by stacking adjacent tomographic slices into multi-channel 2D inputs, allowing effective reuse of pre-trained 2D models while retaining 3D spatial context. 
+• Led model training and optimization based on YOLOv11, incorporating MixUp, cosine learning rate decay, and 4 fold cross-validation to improve generalization on noisy, imbalanced data. 
+• Implemented a custom 3D Non-Maximum Suppression algorithm to resolve spatially redundant predictions and significantly enhance detection precision and F₂-Score. 
+• Constructed the full inference pipeline with model ensembling and dual-threshold filtering, ensuring high recall under the β=2 evaluation metric. 
 
-#### 1. 胰腺癌组织及外周血中巨噬细胞特征与基因表达差异研究（独立完成） | 2024.01 - 至今  
-&zwnj;**导师**&zwnj;: 耶鲁大学陈教授  
-- &zwnj;**研究进展**&zwnj;:  
-  - 开发整合分析流程：运用R语言生态（Seurat/Harmony/SingleR）与Python工具（Scanpy）完成跨样本单细胞数据整合。  
-  - 提出基于Harmony的批次校正策略，实现PBMC与组织样本的跨平台细胞注释。  
-  - 创新动态轨迹建模：通过Monocle3构建巨噬细胞分化轨迹，鉴定GZMA、COL1A1等关键驱动基因。  
-  - 建立空间互作图谱：基于10x Xenium平台解析PDAC组织空间转录组，定位NOP53、CFB等高表达基因热点区域。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 主导R语言代码开发（SeuratV5、ggplot2、jalviewg等），代码开源至GitHub。  
-  - 负责实验设计、数据整合及论文撰写。  
+#### 3.Mechanistic Study of Coupled Drivers of Carbon–Nitrogen Turnover in the Yellow River Estuary 
+* **Third Prize at the National Level, China Undergraduate Life Science Competition**
+* **09/2023-06/2024** 
+• Designed a multivariate factorial experiment across three ecotones—freshwater (R), estuarine mix (C), and nearshore seawater (M)—to simulate real-world environmental gradients. Incorporated temperature shifts (18°C, 4°C), nutrient addition (NaNO₃), microbial inhibition (HgCl₂), and light exposure, with rigorous parallel replicates. 
+• Conducted high-frequency sampling across six timepoints over a 60-day incubation period (Day 0–59), tracking TOC, CDOM, FDOM, pH, and salinity. Modeled TOC decay using first-order kinetics to quantify metabolic intensity and temporal response. 
+• Identified key patterns: rapid TOC loss in early stages due to microbial activity; temperature-modulated pH shifts via CO₂ solubility and metabolic regulation; initial salinity rise linked to microbial metabolism; and marked TOC spatial heterogeneity across zones (estuary > river by 78.51%). 
+• Integrated experimental data to clarify how temperature, microbial activity, and nutrient input jointly regulate carbon and nitrogen turnover pathways, rates, and feedback mechanisms in river–estuary–coastal continua. 
 
----
-
-#### 2. 副鸡禽杆菌HMTp210血清型预测研究 | 2024.05 - 2025.12  
-&zwnj;**导师**&zwnj;: 山东大学张教授  
-- &zwnj;**研究成果**&zwnj;:  
-  - 开发基于XGBoost的血清型预测模型，准确率达91%。  
-  - 揭示副鸡禽杆菌基因组保守性与血清型无显著进化关联。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 编写爬虫采集NCBI数据库中所有HMTp210序列，建立标注数据集。  
-  - 主导模型开发与部署，代码开源至GitHub。  
-
----
-
-#### 3. 糖基化修饰对三型胶原蛋白热稳定性和疏水性影响的分子机制研究 | 2024.12 - 至今  
-&zwnj;**导师**&zwnj;: 山东大学张教授  
-- &zwnj;**研究进展**&zwnj;:  
-  - 完成AutoDock分子对接模拟，揭示羟化酶催化效率差异。  
-  - 利用AlphaFold预测蛋白质结构，完成质粒设计。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 独立完成分子对接与Gromacs动力学模拟全流程。  
-
----
-
-#### 4. 基于YOLOv8的计算机视觉在生物医学领域的应用研究（独立完成） | 2024.02 - 2025.06  
-&zwnj;**导师**&zwnj;: 山东大学张教授  
-- &zwnj;**研究成果**&zwnj;:  
-  - &zwnj;**细胞识别计数模型**&zwnj;: 显微镜图像中细胞检测与计数准确率达98.2%。  
-  - &zwnj;**CT癌症识别模型**&zwnj;: 肺癌CT影像检测准确率达94.5%。  
-  - 设计并实现全流程可视化分析平台。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 提出动态数据增强和知识蒸馏训练策略，独立完成全流程开发与验证。  
-
----
-
-#### 5. 海洋微生物与海洋环境互作机制研究 | 2023.06 - 2024.03  
-&zwnj;**导师**&zwnj;: 山东大学董教授  
-- &zwnj;**成果**&zwnj;:  
-  - 发现微生物丰度与碳含量稳定性强相关（R²=0.85）。  
-  - 获全国大学生生物竞赛三等奖。  
-- &zwnj;**个人贡献**&zwnj;:  
-  - 负责湿实验碳含量测定，主导数据分析与可视化。  
-
-
-## 技能矩阵  
-| **类别**         | **技能项**                                                                 |
-|------------------|--------------------------------------------------------------------------|
-| **湿实验**       | 蛋白质纯化 · DNA测序 · 微生物培养（大肠杆菌/G115酵母） · SDS-PAGE          |
-| **编程语言**     | Python（精通） · R（熟练） · MATLAB（熟练） · C/C++（基础）                |
-| **工具与框架**   | Seurat · PyTorch · AutoDock · Gromacs · Cytoscape · TBtools-II            |
-| **数据分析**     | Pandas · NumPy · scikit-learn · GSEA · Scanpy                             |
-| **可视化**       | ggplot2 · Seaborn · Plotly · PyMOL · UMAP                                 |
-
-
-## 联系方式  
-🌐 **个人网站**：[https://lmf04.github.io](https://lmf04.github.io)  
-
-
-
-## 学术博客  
-📌 **从热图看细胞亚群聚类全景**  
-*2025.03.13 | 单细胞数据分析*  
-复现《Nature》级热图可视化，解析胃癌微环境中的细胞亚型特异性表达模式。  
-
-📌 **哈佛大学Nature代码解析**  
-*2025.02.12 | 发育生物学*  
-深度拆解神经元发育轨迹研究代码，掌握Monocle3伪时间分析与RNA velocity计算。  
-
-
-### 学术服务  
-- 提供单细胞数据分析、机器学习模型开发等技术咨询  
-- 可合作复现《Nature》《Cell》级生信分析流程  
-<!-- 
-关于我
-======
-
-我是山东大学一名大三本科生，生物科学专业，我的研究方向为单细胞分析、蛋白质相互作用关系预测，我加入陈教授的实验室，负责实验室的数据分析工作，我使用的开发语言主要有python和R，开发工具主要有vscode、rstudio、PyCharm等，用到的数据库主要有GEO（基因表达数据库）、KEGG（代谢通路数据库）、Reactome，软件工具主要有数据分析工具：R（GSEA、MetaboAnalyst）、Python（pandas、numpy、matplotlib），网络分析工具主要有Cytoscape，代谢通路建模工具主要有COBRA Toolbox（MATLAB或Python）。
-
-
-教育
-======
-* 山东大学，生物科学专业‌, 2022.09-2026.06
-* ‌核心课程‌：线型代数、微积分、生物统计学、生物信息学、有机化学及实验、无机及分析化学及实验、物理及实验、物理化学及实验、分子生物学及实验、生物化学及实验、遗传学及实验、结构生物学、细胞生物学及实验、微生物学及实验、免疫生物学、计算思维(C语言及算法)、人工智能基础、matlab数学建模、实验数据分析和软件
- 
-技能
-======
-* 湿实验技能：蛋白质提取、DNA提取、DNA测序、构建基因表达载体、微生物培养（赤酶酵母G115、大肠杆菌）、SDS-PAGE、蛋白质纯化、常用实验仪器使用。
-* 分析工具和预测模型的开发、训练、测试和部署（Docker）等。
-* 精通编程语言有C、C++、Python和R、Javascript。
-* 使用的开工具有VS Code、RStudio、PyCharm等。
-* 熟练使用 Pandas、NumPy、Matplotlib、Seaborn、Scikit-learn、Pytorch、SeuratV5、ggplot2、jalviewg、AutoDockTools、Cytoscape、Open Babel GUI、TBtools-II、PyMOL、gromacs、mafft、iqtree、monocle3、scanpy、Biopython。 -->
-
+### **SKILLS**                                                                                                         
+• Wet Lab Techniques: Protein purification, DNA sequencing, microbial culture (E. coli, G115 yeast), SDS-PAGE 
+• Programming Languages: Proficient in Python; skilled in R, MATLAB, JavaScript and HTML; basic knowledge of C/C++; 
+• Tools & Frameworks: Seurat, PyTorch, AutoDock, GROMACS, Cytoscape, TBtools-II, 
+• Data Analysis: Pandas, NumPy, scikit-learn, GSEA, Scanpy 
+• Visualization: ggplot2, Seaborn, Plotly, PyMOL, UMAP
 
 <div class="flex-around nav-bot">
-<a href="/zh/cv">我的简历</a>
-<a href="/zh/researchList/">我的科研</a>
-<a href="/zh/repositoryList/">我的代码库</a>
+<a href="/zh/cv">My CV</a>
+<a href="/zh/researchList/">My Research</a>
+<a href="/zh/repositoryList/">My Repository</a>
 </div>

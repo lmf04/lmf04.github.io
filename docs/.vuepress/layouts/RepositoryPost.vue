@@ -26,12 +26,12 @@
                                 </div>
                             </div>
 
-                            <div style="margin-top: 5px;">
+                            <!-- <div style="margin-top: 5px;">
                                 <b>技术亮点</b>：
                                 <div v-for="(item, i) in _value.frontmatter.technicalHighlights" :key="i">
                                     <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
-                            </div>
+                            </div> -->
                             <Content />
                         </div>
                         <div v-else>
@@ -41,12 +41,12 @@
                                 _value.frontmatter.address }}</a></div>
                             <div style="margin-top: 5px;"><b>Fork/Star</b>：{{ _value.frontmatter.fork }}/{{
                                 _value.frontmatter.star }}</div>
-                            <div style="margin-top: 5px;">
+                            <!-- <div style="margin-top: 5px;">
                                 <b>Research Focus</b>：
                                 <div v-for="(item, i) in _value.frontmatter.researchFocus" :key="i">
                                     <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
-                            </div>
+                            </div> -->
                             <div style="margin-top: 5px;">
                                 <b>Project Description</b>：
                                 <div v-for="(item, i) in _value.frontmatter.projectDescription" :key="i">
@@ -54,12 +54,12 @@
                                 </div>
                             </div>
 
-                            <div style="margin-top: 5px;">
+                            <!-- <div style="margin-top: 5px;">
                                 <b>Technical Highlights</b>：
                                 <div v-for="(item, i) in _value.frontmatter.technicalHighlights" :key="i">
                                     <span style="color: blue;">⭐</span> {{ item }}
                                 </div>
-                            </div>
+                            </div> -->
                             <Content />
                         </div>
                     </div>
