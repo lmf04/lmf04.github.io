@@ -5,21 +5,21 @@ layout: Empty
 ---
 
 
-### **Personal Information**
-* **NAME**：Mengfei Li
+### <span style="color: #2e99a7ff;">**Personal Information**</span>
+* **NAME**：<span style="color: #6c7bc0ff;">**Mengfei Li**</span>
 * **Personal Website**: [https://lmf04.github.io](https://lmf04.github.io/)
 * **GitHub**: [https://github.com/lmf04](https://github.com/lmf04)
 
-### **EDUCATION**
+### <span style="color: #2e99a7ff;">**EDUCATION**</span>
 ##### **Shandong University** | Biological Science Undergraduate | 2022.09-2026.06 <br>
  * **GPA**：88/100 <br>
- * Honors:First-class Scholarship (top 10%), Third-class Scholarship
+ * Honors:First-class Scholarship (top 10%), Gold Medal in Kaggle Competition, National Third Prize in National College Student Life Science Competition
 
 
-### **RESEARCH EXPERIENCE**
-#### **1.Spatiotemporal Transcriptomic Analysis of Tumor-Associated Macrophage Heterogeneity and Bifunctional Molecular Nodes in Pancreatic Ductal Adenocarcinoma** 
-* **Research Assistant (remote), Supervised by Prof. Guangwei Zhang from USC**
-* **06/2024-04/2025** 
+### <span style="color: #2e99a7ff;">**RESEARCH EXPERIENCE**</span>
+#### <span style="color: #2ea760ff;">**1.Spatiotemporal Transcriptomic Analysis of Tumor-Associated Macrophage Heterogeneity and Bifunctional Molecular Nodes in Pancreatic Ductal Adenocarcinoma** </span>
+* <span style="color: #2ea760ff;">**Research Assistant (remote), Supervised by Prof. Guangwei Zhang from USC**</span>
+* <span style="color: #2ea760ff;">**06/2024-04/2025** </span>
   
 • Preprocessed and clustered scRNA-seq data (16 PDAC tumors, 3 normal tissues; 16 PDAC PBMCs, 4 healthy PBMCs) using Harmony for batch correction and SingleR/Seurat v5 for annotation, to identify spatial collapse of T cells and TAM expansion associated with COL1A1-driven ECM remodeling. 
 
@@ -30,9 +30,9 @@ layout: Empty
 • Identified bifunctional regulatory molecules including NOP53 (activates p53, suppresses PI3K-AKT) and SPP1 (involved in both metastasis and anti-tumor immunity), and validated their spatial co-localization with TAMs and tumor cells. 
 
 
-#### **2.Bioinformatics Research on HMTp210-Based Serotyping and Epitope Profiling of Avibacterium Paragallinarum** 
-* **Research Assistant, Supervised by Prof. Min Chen from Shandong University**
-* **12/2024-03/2025**
+#### <span style="color: #2ea760ff;">**2.Bioinformatics Research on HMTp210-Based Serotyping and Epitope Profiling of Avibacterium Paragallinarum** </span>
+* <span style="color: #2ea760ff;">**Research Assistant, Supervised by Prof. Min Chen from Shandong University**</span>
+<span style="color: #2ea760ff;">* **12/2024-03/2025**</span>
   
 • Led a full-stack genomic and structural bioinformatics analysis of HMTp210, a hemagglutinin protein from Avibacterium paragallinarum (Apg), and pioneered the first sequence-based serotyping model for Apg using 91 strains from NCBI. 
 
@@ -44,9 +44,9 @@ layout: Empty
 
 • Identified A-type specific epitope (1634N–1640T) and C2-subtype–unique insertions, enabling development of a motif-based subtyping model and offering theoretical groundwork for subtype-specific recombinant vaccine design. 
 
-#### **3.YOLOv8-Based Biomedical Image Analysis Platform Development** 
-* **Independent Project**
-* **01/2025-02/2025**
+#### <span style="color: #2ea760ff;">**3.YOLOv8-Based Biomedical Image Analysis Platform Development** </span>
+* <span style="color: #2ea760ff;">**Independent Project**</span>
+* <span style="color: #2ea760ff;">**01/2025-02/2025**</span>
   
 • Developed a multi-task YOLOv8 detection model with EfficientNetV2 backbone and CBAM attention modules. The model detects and counts cells in microscopy images with 95.2% accuracy and locates and classifies lung tumors on CT scans, improving accuracy by 23% compared to traditional methods (p < 0.01). 
 
@@ -56,10 +56,10 @@ layout: Empty
 
 • Package the platform with Docker for deployment on servers and local workstations, ensuring compatibility across devices. The project is publicly available on GitHub. 
 
-### **COMPETITION/PROJECT EXPERIENCE**                                                                          
-#### **1.Glycoengineering to Enhance Thermal Stability of Type III Collagen** 
-* **China Undergraduate Life Science Competition**   
-* **01/2025-present** 
+### <span style="color: #2e99a7ff;">**COMPETITION/PROJECT EXPERIENCE**  </span>                                                                        
+#### <span style="color: #2ea760ff;">**1.Glycoengineering to Enhance Thermal Stability of Type III Collagen** </span>
+* <span style="color: #2ea760ff;">**China Undergraduate Life Science Competition**   </span>
+* <span style="color: #2ea760ff;">**01/2025-present** </span>
   
 • Constructed recombinant plasmid pRSFDuet-COL3A1 by preserving the Gly-X-Y repeats of type III collagen and adding a 4DANYTK glycosylation tag and 6His purification tag, based on multiple sequence alignment of 220 homologs. 
 
@@ -71,9 +71,9 @@ layout: Empty
 
 • Confirmed structural integrity of glycosylated collagen with circular dichroism (CD) spectroscopy; the α-helical profile remained intact, supporting improved thermal stability. 
 
-#### **2.Locating Bacterial Flagellar Motors**
-* **Top 5 Gold Prize, BYU CryoET Challenge 2025, Kaggle Competition**
-* **06/2025**
+#### <span style="color: #2ea760ff;">**2.Locating Bacterial Flagellar Motors**</span>
+* <span style="color: #2ea760ff;">**Top 5 Gold Prize, BYU CryoET Challenge 2025, Kaggle Competition**</span>
+* <span style="color: #2ea760ff;">**04/2025-07/2025**</span>
   
 • Designed an automated pipeline for identifying sparse bacterial flagellar motors in low-SNR 3D Cryo-ET images. 
 
@@ -85,9 +85,9 @@ layout: Empty
 
 • Constructed the full inference pipeline with model ensembling and dual-threshold filtering, ensuring high recall under the β=2 evaluation metric. 
 
-#### **3.Mechanistic Study of Coupled Drivers of Carbon–Nitrogen Turnover in the Yellow River Estuary**
-* **Third Prize at the National Level, China Undergraduate Life Science Competition**
-* **09/2023-06/2024** 
+#### <span style="color: #2ea760ff;">**3.Mechanistic Study of Coupled Drivers of Carbon–Nitrogen Turnover in the Yellow River Estuary**</span>
+* <span style="color: #2ea760ff;">**Third Prize at the National Level, China Undergraduate Life Science Competition**</span>
+* <span style="color: #2ea760ff;">**09/2023-06/2024** </span>
   
 • Designed a multivariate factorial experiment across three ecotones—freshwater (R), estuarine mix (C), and nearshore seawater (M)—to simulate real-world environmental gradients. Incorporated temperature shifts (18°C, 4°C), nutrient addition (NaNO₃), microbial inhibition (HgCl₂), and light exposure, with rigorous parallel replicates. 
 
@@ -97,7 +97,7 @@ layout: Empty
 
 • Integrated experimental data to clarify how temperature, microbial activity, and nutrient input jointly regulate carbon and nitrogen turnover pathways, rates, and feedback mechanisms in river–estuary–coastal continua. 
 
-### **SKILLS**      
+### <span style="color: #2e99a7ff;">**SKILLS**</span>      
 |Areas|Skills|
 |---|---|
 |**Wet Lab Techniques**|Protein purification, DNA sequencing, microbial culture (E. coli, G115 yeast), SDS-PAGE|

@@ -10,18 +10,18 @@ layout: Empty
 
 <h1 style="text-align: center;">CV</h1>
 
-### **Personal Information**
+### <span style="color: #2e99a7ff;">**Personal Information**</span>
 * **NAME**：Mengfei Li
 * **Personal Website**: [https://lmf04.github.io](https://lmf04.github.io/)
 * **GitHub**: [https://github.com/lmf04](https://github.com/lmf04)
 
-### **EDUCATION**
+### <span style="color: #2e99a7ff;">**EDUCATION**</span>
 ##### **Shandong University** | Bachelor of Biological Sciences | 2022.09-2026.06 <br>
  * **GPA**：88/100 <br>
-Honors:First-class Scholarship (top 10%), Third-class Scholarship
+Honors:First-class Scholarship (top 10%), Gold Medal in Kaggle Competition, National Third Prize in National College Student Life Science Competition
 
 
-### **RESEARCH EXPERIENCE**
+### <span style="color: #2e99a7ff;">**RESEARCH EXPERIENCE**</span>
 #### 1.Spatiotemporal Transcriptomic Analysis of Tumor-Associated Macrophage Heterogeneity and Bifunctional Molecular Nodes in Pancreatic Ductal Adenocarcinoma 
 * **Research Assistant (remote), Supervised by Prof. Guangwei Zhang from USC**
 * **06/2024-04/2025** 
@@ -61,7 +61,7 @@ Honors:First-class Scholarship (top 10%), Third-class Scholarship
 
 • Package the platform with Docker for deployment on servers and local workstations, ensuring compatibility across devices. The project is publicly available on GitHub. 
 
-### **COMPETITION/PROJECT EXPERIENCE**                                                                          
+### <span style="color: #2e99a7ff;">**COMPETITION/PROJECT EXPERIENCE**</span>                                                                          
 #### 1.Glycoengineering to Enhance Thermal Stability of Type III Collagen 
 * **China Undergraduate Life Science Competition**   
 * **01/2025-present** 
@@ -78,7 +78,7 @@ Honors:First-class Scholarship (top 10%), Third-class Scholarship
 
 #### 2.Locating Bacterial Flagellar Motors 
 * **Top 5 Gold Prize, BYU CryoET Challenge 2025, Kaggle Competition**
-* **06/2025**
+* **04/2025-07/2025**
   
 • Designed an automated pipeline for identifying sparse bacterial flagellar motors in low-SNR 3D Cryo-ET images. 
 
@@ -102,7 +102,7 @@ Honors:First-class Scholarship (top 10%), Third-class Scholarship
 
 • Integrated experimental data to clarify how temperature, microbial activity, and nutrient input jointly regulate carbon and nitrogen turnover pathways, rates, and feedback mechanisms in river–estuary–coastal continua. 
 
-### **SKILLS**                                                                                                         
+### <span style="color: #2e99a7ff;">**SKILLS** </span>                                                                                                        
 • **Wet Lab Techniques**: Protein purification, DNA sequencing, microbial culture (E. coli, G115 yeast), SDS-PAGE 
 
 • **Programming Languages**: Proficient in Python; skilled in R, MATLAB, JavaScript and HTML; basic knowledge of C/C++; 
