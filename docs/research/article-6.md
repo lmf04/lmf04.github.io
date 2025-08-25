@@ -8,7 +8,7 @@ category:
 title: Mechanistic Study of Coupled Drivers of Carbon–Nitrogen Turnover in the Yellow River Estuary 
 teacher: Supervised by Prof. Junfu Dong from Shandong University
 ---
-## projectDescription:
+## <span style="color: #2ea760ff;">Research Description:</span>
 • Designed a multivariate factorial experiment across three ecotones—freshwater (R), estuarine mix (C), and nearshore seawater (M)—to simulate real-world environmental gradients. Incorporated temperature shifts (18°C, 4°C), nutrient addition (NaNO₃), microbial inhibition (HgCl₂), and light exposure, with rigorous parallel replicates. 
 
 • Conducted high-frequency sampling across six timepoints over a 60-day incubation period (Day 0–59), tracking TOC, CDOM, FDOM, pH, and salinity. Modeled TOC decay using first-order kinetics to quantify metabolic intensity and temporal response. 

@@ -8,7 +8,7 @@ category:
 title: Locating Bacterial Flagellar Motors 
 teacher: None
 ---
-## projectDescription:
+## <span style="color: #2ea760ff;">Research Description:</span>
 • Designed an automated pipeline for identifying sparse bacterial flagellar motors in low-SNR 3D Cryo-ET images. 
 
 • Developed a “2.5D slicing” strategy by stacking adjacent tomographic slices into multi-channel 2D inputs, allowing effective reuse of pre-trained 2D models while retaining 3D spatial context. 

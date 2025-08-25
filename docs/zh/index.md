@@ -30,6 +30,8 @@ layout: Empty
 
 （4） 鉴定出包括 NOP53（激活 p53，抑制 PI3K-AKT）和 SPP1（参与转移和抗肿瘤免疫）在内的双功能调节分子，并验证了它们与 TAM 和肿瘤细胞的空间共定位。
 
+![pic1](../../docs/.vuepress/public/images/zh01.png)
+
 #### <span style="color: #2ea760ff;">**2. 基于HMTp210的副鸡禽杆菌血清分型与表位图谱的生物信息学研究**</span>
 * <span style="color: #2ea760ff;">**研究助理，由山东大学陈敏教授指导**</span>
 * <span style="color: #2ea760ff;">**2024年12月-2025年3月**</span>
@@ -43,6 +45,7 @@ layout: Empty
 • 使用 IEDB 和 Rankpep 进行 B 细胞表位预测，鉴定出 6 个富集在 Region2/3 的保守免疫优势表位，包括一个具有 >95% 交叉血清型保守性的新型“三叶草形环”结构。
 
 • 鉴定了 A 型特异性表位（1634N–1640T）和 C2 亚型特异性插入，从而能够开发基于基序的亚分型模型，并为亚型特异性重组疫苗设计提供理论基础。
+![pic1](../../docs/.vuepress/public/images/zh02.png)
 
 #### <span style="color: #2ea760ff;">**3. 基于YOLOv8的生物医学图像分析平台开发**</span>
 * <span style="color: #2ea760ff;">**独立项目**</span>
