@@ -5,7 +5,7 @@ sort: 0
 category: 
   - 2
   - Independent Project
-title: YOLOv8-Based Biomedical Image Analysis Platform Development  
+title: YOLOv8-Based Image Analysis Platform Development  
 teacher: None
 ---
 ## <span style="color: #2ea760ff;">Research Description:</span>

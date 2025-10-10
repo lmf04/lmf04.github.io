@@ -47,7 +47,7 @@ layout: Empty
 • 鉴定了 A 型特异性表位（1634N–1640T）和 C2 亚型特异性插入，从而能够开发基于基序的亚分型模型，并为亚型特异性重组疫苗设计提供理论基础。
 ![pic1](../../docs/.vuepress/public/images/zh02.png)
 
-#### <span style="color: #2ea760ff;">**3. 基于YOLOv8的生物医学图像分析平台开发**</span>
+#### <span style="color: #2ea760ff;">**3. 基于YOLOv8的生物图像分析平台开发**</span>
 * <span style="color: #2ea760ff;">**独立项目**</span>
 * <span style="color: #2ea760ff;">**2025年1月-2025年2月**</span>
   

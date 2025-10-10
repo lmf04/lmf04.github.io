@@ -5,7 +5,7 @@ sort: 0
 category: 
   - 2
   - 独立项目
-title: 基于YOLOv8的生物医学图像分析平台开发 
+title: 基于YOLOv8的生物图像分析平台开发 
 teacher: 无
 ---
 ## <span style="color: #2ea760ff;">项目描述:</span>

@@ -49,7 +49,7 @@ Honors:First-class Scholarship (top 10%), Gold Medal in Kaggle Competition, Nati
 
 • Identified A-type specific epitope (1634N–1640T) and C2-subtype–unique insertions, enabling development of a motif-based subtyping model and offering theoretical groundwork for subtype-specific recombinant vaccine design. 
 
-#### 3.YOLOv8-Based Biomedical Image Analysis Platform Development 
+#### 3.YOLOv8-Based Image Analysis Platform Development 
 * **Independent Project**
 * **01/2025-02/2025**
   
