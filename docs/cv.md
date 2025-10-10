@@ -39,7 +39,7 @@ Honors:First-class Scholarship (top 10%), Gold Medal in Kaggle Competition, Nati
 * **Research Assistant, Supervised by Prof. Min Chen from Shandong University**
 * **12/2024-03/2025**
   
-• Led a full-stack genomic and structural bioinformatics analysis of HMTp210, a hemagglutinin protein from Avibacterium paragallinarum (Apg), and pioneered the first sequence-based serotyping model for Apg using 91 strains from NCBI. 
+• Led a full-stack genomic and structural bioinformatics analysis of HMTp210, a hemagglutinin protein from Avibacterium paragallinarum (Apg), and pioneered the sequence-based serotyping model for Apg using 91 strains from NCBI. 
 
 • Constructed a robust serotyping framework integrating phylogenetic tree building (PhyloPhlAn), pan-genome analysis (BPGA + MAFFT), and motif detection (MEME), classifying HMTp210 into 3 major serogroups (A/B/C) and 8 subtypes (A1–C3) based on Region2-specific divergence. 
 
