@@ -51,8 +51,6 @@ layout: Empty
   
 • Developed a multi-task YOLOv8 detection model with EfficientNetV2 backbone and CBAM attention modules. The model detects and counts cells in microscopy images with 95.2% accuracy. 
 
-• Built an image preprocessing pipeline supporting DICOM and NIfTI formats to handle biomedical imaging data across different modalities. 
-
 • Designed and implemented an interactive visualization platform using FastAPI for backend and Vue3 for frontend. The platform integrates preprocessing, model inference, annotation, and automated report generation to streamline clinical and research workflows. 
 
 • Package the platform with Docker for deployment on servers and local workstations, ensuring compatibility across devices. The project is publicly available on GitHub. 
