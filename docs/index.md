@@ -28,7 +28,7 @@ layout: Empty
 • Processed and analyzed 10x Xenium FFPE spatial transcriptomic data using Squidpy + Scanpy, followed by DESeq2 and FindAllMarkers for DEG analysis, and GO/KEGG enrichment to identify key immune modulators. 
 
 • Identified bifunctional regulatory molecules including NOP53 (activates p53, suppresses PI3K-AKT) and SPP1 (involved in both metastasis and anti-tumor immunity), and validated their spatial co-localization with TAMs and tumor cells. 
-
+![pic1](../docs/.vuepress/public/images/eng01.png)
 
 #### <span style="color: #2ea760ff;">**2.Bioinformatics Research on HMTp210-Based Serotyping and Epitope Profiling of Avibacterium Paragallinarum** </span>
 * <span style="color: #2ea760ff;">**Research Assistant, Supervised by Prof. Min Chen from Shandong University**</span>
@@ -43,7 +43,7 @@ layout: Empty
 • Performed B-cell epitope prediction using IEDB and Rankpep, identifying 6 conserved immunodominant epitopes enriched in Region2/3, including a novel “clover-shaped loop” structure with >95% cross-serotype conservation. 
 
 • Identified A-type specific epitope (1634N–1640T) and C2-subtype–unique insertions, enabling development of a motif-based subtyping model and offering theoretical groundwork for subtype-specific recombinant vaccine design. 
-
+![pic1](../docs/.vuepress/public/images/eng02.png)
 
 #### <span style="color: #2ea760ff;">**3.YOLOv8-Based Image Analysis Platform Development** </span>
 * <span style="color: #2ea760ff;">**Independent Project**</span>
