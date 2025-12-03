@@ -28,7 +28,7 @@ layout: Empty
 • Processed and analyzed 10x Xenium FFPE spatial transcriptomic data using Squidpy + Scanpy, followed by DESeq2 and FindAllMarkers for DEG analysis, and GO/KEGG enrichment to identify key immune modulators. 
 
 • Identified bifunctional regulatory molecules including NOP53 (activates p53, suppresses PI3K-AKT) and SPP1 (involved in both metastasis and anti-tumor immunity), and validated their spatial co-localization with TAMs and tumor cells. 
-![pic1](../docs/.vuepress/public/images/eng01.png)
+<img src="../docs/.vuepress/public/images/eng01.png" alt="pic1" style="width: 100%; height: auto;">
 
 #### <span style="color: #2ea760ff;">**2.Bioinformatics Research on HMTp210-Based Serotyping and Epitope Profiling of Avibacterium Paragallinarum** </span>
 * <span style="color: #2ea760ff;">**Research Assistant, Supervised by Prof. Min Chen from Shandong University**</span>
