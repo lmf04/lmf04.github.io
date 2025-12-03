@@ -43,8 +43,7 @@ layout: Empty
 • Performed B-cell epitope prediction using IEDB and Rankpep, identifying 6 conserved immunodominant epitopes enriched in Region2/3, including a novel “clover-shaped loop” structure with >95% cross-serotype conservation. 
 
 • Identified A-type specific epitope (1634N–1640T) and C2-subtype–unique insertions, enabling development of a motif-based subtyping model and offering theoretical groundwork for subtype-specific recombinant vaccine design. 
-![pic1](../docs/.vuepress/public/images/eng02.png)
-
+<img src="../docs/.vuepress/public/images/eng02.jpg" alt="pic1" style="width: 80%; height: auto;">
 #### <span style="color: #2ea760ff;">**3.YOLOv8-Based Image Analysis Platform Development** </span>
 * <span style="color: #2ea760ff;">**Independent Project**</span>
 * <span style="color: #2ea760ff;">**01/2025-02/2025**</span>
